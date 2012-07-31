@@ -7,8 +7,20 @@
 
 ---
 
+## v1.0.0
+#### July 31, 2012
+
+* Bunch of changes...
+    * Changed repo/project name to "wiffle".
+    * Changed class names.
+    * Put related CSS in their own CSS file.
+    * Added CSS to handle borders/padding/margins/other.
+    * Bumped version number.
+
+---
+
 ## v0.1.0
-#### July 15, 2012
+#### July 13, 2012
 
 * Initial public release.
 

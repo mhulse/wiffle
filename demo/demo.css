@@ -40,8 +40,6 @@ a:active {
 	text-decoration: underline;
 }
 
-hr { display: none !important; }
-
 h1 {
 	font-size: 312.5%; /* 50px */
 	text-align: center;
