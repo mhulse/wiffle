@@ -1,8 +1,7 @@
-<img src="http://registerguard.github.com/wiffle/whiffle.gif" alt="Wiffle, it's responsive!">
-
----
-
 # *Wiffle*
+
+![whiffle](http://registerguard.github.com/wiffle/wiffle.gif)
+
 ### A Responsive grid system based on [Frameless](http://framelessgrid.com/) & [OOCSS Grids](https://github.com/stubbornella/oocss/wiki/Grids).
 
 ---
