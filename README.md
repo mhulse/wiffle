@@ -1,6 +1,6 @@
 # *Wiffle*
 
-![whiffle](http://registerguard.github.com/wiffle/wiffle.gif)
+![Wiffle, it's responsive!](http://registerguard.github.com/wiffle/wiffle.gif)
 
 ### A Responsive grid system based on [Frameless](http://framelessgrid.com/) & [OOCSS Grids](https://github.com/stubbornella/oocss/wiki/Grids).
 
