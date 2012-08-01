@@ -16,6 +16,24 @@
 /*--------------------------------------------------------------------*/
 
 /**
+ * Hide from both screen readers and browsers.
+ */
+
+.w_Bh, .w_Ch, .w_Dh { display: none !important; visibility: hidden; }
+.w_Ah { display: block !important; visibility: visible; }
+
+/*----------------------------------*/
+
+/**
+ * Hide visually and from screen readers whilst retaining layout.
+ */
+
+.w_Bv, .w_Cv, .w_Dv { visibility: hidden; }
+.w_Av { visibility: visible; }
+
+/*--------------------------------------------------------------------*/
+
+/**
  * Borders, right/left.
  */
 
@@ -55,6 +73,24 @@
 @media only screen and (min-width: 665px) {
 	
 	/*-----------------( [B]ravo )-----------------*/
+	
+	/**
+	 * Hide from both screen readers and browsers.
+	 */
+	
+	.w_Ah { display: none !important; visibility: hidden; }
+	.w_Bh { display: block !important; visibility: visible; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Hide visually and from screen readers whilst retaining layout.
+	 */
+	
+	.w_Av { visibility: hidden; }
+	.w_Bv { visibility: visible; }
+	
+	/*--------------------------------------------------------------------*/
 	
 	/**
 	 * Vertical lines between fixed columns.
@@ -121,6 +157,24 @@
 	/*-----------------( [C]harlie )-----------------*/
 	
 	/**
+	 * Hide from both screen readers and browsers.
+	 */
+	
+	.w_Bh { display: none !important; visibility: hidden; }
+	.w_Ch { display: block !important; visibility: visible; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Hide visually and from screen readers whilst retaining layout.
+	 */
+	
+	.w_Bv { visibility: hidden; }
+	.w_Cv { visibility: visible; }
+	
+	/*--------------------------------------------------------------------*/
+	
+	/**
 	 * Vertical lines between fixed columns.
 	 */
 	
@@ -170,6 +224,24 @@
 @media only screen and (min-width: 1325px) {
 	
 	/*-----------------( [D]elta )-----------------*/
+	
+	/**
+	 * Hide from both screen readers and browsers.
+	 */
+	
+	.w_Ch { display: none !important; visibility: hidden; }
+	.w_Dh { display: block !important; visibility: visible; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Hide visually and from screen readers whilst retaining layout.
+	 */
+	
+	.w_Cv { visibility: hidden; }
+	.w_Dv { visibility: visible; }
+	
+	/*--------------------------------------------------------------------*/
 	
 	/**
 	 * Vertical lines between fixed columns.
