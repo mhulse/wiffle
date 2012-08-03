@@ -10,7 +10,7 @@
  * @see rgne.ws/JNpYSM
  */
 
-.w_line:before, .w_line:after { content: ""; display: table; } .w_line:after { clear: both; } .w_line { *zoom: 1; } /* IBID */
+.w_line:before, .w_line:after { content: ""; display: table; } .w_line:after { clear: both; } .w_line { *zoom: 1; } /* rgne.ws/KZHkqq */
 	.w_unit { float: left; display: inline; width: 100%; position: relative; }
 		.debug .w_unit { background: rgba(0, 0, 255, 0.25); } /* blue, #00f */
 

@@ -2,104 +2,20 @@
    _wiffle-utils.css
    ========================================================================== */
 
-/*-----------------( [A]lpha )-----------------*/
-
-/**
- * Wrapper used to contain child margins.
- *
- * @see rgne.ws/JAoGck
- */
-
-.w_wrap { padding: 1px 0; margin: -1px 0; }
-	.debug .w_wrap { backgrounDcolor: rgba(240, 230, 140, 0.25); } /* khaki, #f0e68c */
-
-/*--------------------------------------------------------------------*/
-
-/**
- * Hide from both screen readers and browsers.
- */
-
-.w_Bh, .w_Ch, .w_Dh { display: none !important; visibility: hidden; }
-.w_Ah { display: block !important; visibility: visible; }
-
-/*----------------------------------*/
-
-/**
- * Hide visually and from screen readers whilst retaining layout.
- */
-
-.w_Bv, .w_Cv, .w_Dv { visibility: hidden; }
-.w_Av { visibility: visible; }
-
-/*--------------------------------------------------------------------*/
-
-/**
- * Borders, right/left.
- */
-
-.w_Abl { border-left: 1px solid #ccc; }
-.w_Abr { border-right: 1px solid #ccc; }
-
-/*----------------------------------*/
-
-/**
- * Borders, top/bottom.
- */
-
-.w_Abtb { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
-.w_Abt { border-top: 1px solid #ccc; }
-.w_Abb { border-bottom: 1px solid #ccc; }
-
-/*--------------------------------------------------------------------*/
-
-/**
- * Padding, right/left.
- */
-
-.w_Aplr { padding-left: 10px; padding-right: 10px; }
-.w_Apl { padding-left: 10px; }
-.w_Apr { padding-right: 10px; }
-
-/*--------------------------------------------------------------------*/
-
-/**
- * Margins, top/bottom.
- */
-
-.w_Amtb { margin-top: 20px; margin-bottom: 20px; }
-.w_Amt { margin-top: 20px; }
-.w_Amb { margin-bottom: 20px; }
-
 @media only screen and (min-width: 665px) {
 	
 	/*-----------------( [B]ravo )-----------------*/
 	
 	/**
-	 * Hide from both screen readers and browsers.
-	 */
-	
-	.w_Ah { display: none !important; visibility: hidden; }
-	.w_Bh { display: block !important; visibility: visible; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Hide visually and from screen readers whilst retaining layout.
-	 */
-	
-	.w_Av { visibility: hidden; }
-	.w_Bv { visibility: visible; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Vertical lines between fixed columns.
+	 * Vertical lines between `px` columns.
 	 * Compatible with IE > 7.
 	 *
 	 * @see rgne.ws/M85ynR
 	 */
 	
-	.w_lb:before, .w_rb:after {
+	/* Initialize: */
+	
+	.w_lb:before, .w_la:after {
 		border-right: 1px solid #ccc;
 		content: "";
 		display: none;
@@ -108,47 +24,11 @@
 		bottom: 0;
 	}
 	.w_lb:before { left: -11px; }
-	.w_rb:after { right: -10px; }
-	.w_Bb:before, .w_Bb:after { display: block; }
+	.w_la:after { right: -10px; }
 	
-	/*--------------------------------------------------------------------*/
+	/* Breakpoints: */
 	
-	/**
-	 * Borders, right/left.
-	 */
-	
-	.w_Bbl { border-left: 1px solid #ccc; }
-	.w_Bbr { border-right: 1px solid #ccc; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Borders, top/bottom.
-	 */
-	
-	.w_Bbtb { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
-	.w_Bbt { border-top: 1px solid #ccc; }
-	.w_Bbb { border-bottom: 1px solid #ccc; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Padding, right/left.
-	 */
-	
-	.w_Bplr { padding-left: 10px; padding-right: 10px; }
-	.w_Bpl { padding-left: 10px; }
-	.w_Bpr { padding-right: 10px; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Margins, top/bottom.
-	 */
-	
-	.w_Bmtb { margin-top: 20px; margin-bottom: 20px; }
-	.w_Bmt { margin-top: 20px; }
-	.w_Bmb { margin-bottom: 20px; }
+	.w_Bl:before, .w_Bl:after { display: block; }
 	
 }
 
@@ -157,135 +37,19 @@
 	/*-----------------( [C]harlie )-----------------*/
 	
 	/**
-	 * Hide from both screen readers and browsers.
+	 * Vertical lines between `px` columns.
 	 */
 	
-	.w_Bh { display: none !important; visibility: hidden; }
-	.w_Ch { display: block !important; visibility: visible; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Hide visually and from screen readers whilst retaining layout.
-	 */
-	
-	.w_Bv { visibility: hidden; }
-	.w_Cv { visibility: visible; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Vertical lines between fixed columns.
-	 */
-	
-	.w_Cb:before, .w_Cb:after { display: block; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Borders, right/left.
-	 */
-	
-	.w_Cbl { border-left: 1px solid #ccc; }
-	.w_Cbr { border-right: 1px solid #ccc; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Borders, top/bottom.
-	 */
-	
-	.w_Cbtb { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
-	.w_Cbt { border-top: 1px solid #ccc; }
-	.w_Cbb { border-bottom: 1px solid #ccc; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Padding, right/left.
-	 */
-	
-	.w_Cplr { padding-left: 10px; padding-right: 10px; }
-	.w_Cpl { padding-left: 10px; }
-	.w_Cpr { padding-right: 10px; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Margins, top/bottom.
-	 */
-	
-	.w_Cmtb { margin-top: 20px; margin-bottom: 20px; }
-	.w_Cmt { margin-top: 20px; }
-	.w_Cmb { margin-bottom: 20px; }
+	.w_Cl:before, .w_Cl:after { display: block; }
 	
 }
 
 @media only screen and (min-width: 1325px) {
 	
-	/*-----------------( [D]elta )-----------------*/
-	
 	/**
-	 * Hide from both screen readers and browsers.
+	 * Vertical lines between `px` columns.
 	 */
 	
-	.w_Ch { display: none !important; visibility: hidden; }
-	.w_Dh { display: block !important; visibility: visible; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Hide visually and from screen readers whilst retaining layout.
-	 */
-	
-	.w_Cv { visibility: hidden; }
-	.w_Dv { visibility: visible; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Vertical lines between fixed columns.
-	 */
-	
-	.w_Db:before, .w_Db:after { display: block; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Borders, right/left.
-	 */
-	
-	.w_Dbl { border-left: 1px solid #ccc; }
-	.w_Dbr { border-right: 1px solid #ccc; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Borders, top/bottom.
-	 */
-	
-	.w_Dbtb { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
-	.w_Dbt { border-top: 1px solid #ccc; }
-	.w_Dbb { border-bottom: 1px solid #ccc; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Padding, right/left.
-	 */
-	
-	.w_Dplr { padding-left: 10px; padding-right: 10px; }
-	.w_Dpl { padding-left: 10px; }
-	.w_Dpr { padding-right: 10px; }
-	
-	/*--------------------------------------------------------------------*/
-	
-	/**
-	 * Margins, top/bottom.
-	 */
-	
-	.w_Dmtb { margin-top: 20px; margin-bottom: 20px; }
-	.w_Dmt { margin-top: 20px; }
-	.w_Dmb { margin-bottom: 20px; }
+	.w_Dl:before, .w_Dl:after { display: block; }
 	
 }

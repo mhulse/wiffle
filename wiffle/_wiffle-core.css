@@ -16,16 +16,7 @@
  * Container.
  */
 
-.wiffle {
-	background-color: #fff;
-	border-width: 0 5px;
-	border-style: solid;
-	border-color: #fff;
-	height: auto;
-	min-height: 100%;
-	_height: 100%;
-	margin: 0 10px;
-}
+.wiffle { margin: 0 10px; }
 	.debug .wiffle { background-color: rgba(0, 0, 0, 0.25); } /* black, #000 */
 
 /*

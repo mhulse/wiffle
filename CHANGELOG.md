@@ -8,6 +8,15 @@
 ---
 
 ## v1.0.0
+#### August 2, 2012
+
+* Removed cruft from utils css.
+* Updated demo HTML and CSS.
+* House cleaning.
+
+---
+
+## v1.0.0
 #### July 31, 2012
 
 * Bunch of changes...
