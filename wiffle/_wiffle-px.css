@@ -24,8 +24,8 @@
 	 * @see rgne.ws/KdetDk
 	 */
 	
-	.w_row { margin-left: -20px; }
-		.w_col { padding-left: 20px; } /* Account for negative margin above. */
+	.w_row { margin-left: -40px; }
+		.w_col { padding-left: 40px; } /* Account for negative margin above. */
 	
 	/*----------------------------------*/
 	
@@ -35,13 +35,13 @@
 	 * @see rgne.ws/KdetDk
 	 */
 	
-	.w_B145 { width: 145px; }
-	.w_B310 { width: 310px; }
-	.w_B475 { width: 475px; }
-		.debug .w_B145 { background: rgba(128, 0, 128, 0.25); } /* purple, #800080 */
-		.debug .w_B310 { background: rgba(0, 0, 128, 0.25); }   /* navy, #000080 */
-		.debug .w_B475 { background: rgba(0, 128, 128, 0.25); } /* teal, #008080 */
-	.w_B145, .w_B310, .w_B475 { margin: 0 0 0 20px; padding: 0; float: left; display: inline; } /* Remove padding in place of margin (see link above). */
+	.w_B130 { width: 130px; }
+	.w_B300 { width: 300px; }
+	.w_B470 { width: 470px; }
+		.debug .w_B130 { background: rgba(128, 0, 128, 0.25); } /* purple, #800080 */
+		.debug .w_B300 { background: rgba(0, 0, 128, 0.25); }   /* navy, #000080 */
+		.debug .w_B470 { background: rgba(0, 128, 128, 0.25); } /* teal, #008080 */
+	.w_B130, .w_B300, .w_B470 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; } /* Remove padding in place of margin (see link above). */
 	
 	/*----------------------------------*/
 	
@@ -53,7 +53,7 @@
 	
 }
 
-@media only screen and (min-width: 995px) {
+@media only screen and (min-width: 1005px) {
 	
 	/*-----------------( [C]harlie )-----------------*/
 	
@@ -61,17 +61,17 @@
 	 * `px` classes.
 	 */
 	
-	.w_C145 { width: 145px; }
-	.w_C310 { width: 310px; }
-	.w_C475 { width: 475px; }
+	.w_C130 { width: 130px; }
+	.w_C300 { width: 300px; }
+	.w_C470 { width: 470px; }
 	.w_C640 { width: 640px; }
-	.w_C805 { width: 805px; }
-		.debug .w_C145 { background: rgba(192, 192, 192, 0.25); } /* silver, #c0c0c0 */
-		.debug .w_C310 { background: rgba(0, 128, 0, 0.25); }     /* green, #008000 */
-		.debug .w_C475 { background: rgba(0, 255, 0, 0.25); }     /* lime, #0f0 */
+	.w_C810 { width: 810px; }
+		.debug .w_C130 { background: rgba(192, 192, 192, 0.25); } /* silver, #c0c0c0 */
+		.debug .w_C300 { background: rgba(0, 128, 0, 0.25); }     /* green, #008000 */
+		.debug .w_C470 { background: rgba(0, 255, 0, 0.25); }     /* lime, #0f0 */
 		.debug .w_C640 { background: rgba(255, 255, 255, 0.25); } /* white, #fff */
-		.debug .w_C805 { background: rgba(240, 230, 140, 0.25); } /* khaki, #f0e68c */
-	.w_C145, .w_C310, .w_C475, .w_C640, .w_C805 { margin: 0 0 0 20px; padding: 0; float: left; display: inline; }
+		.debug .w_C810 { background: rgba(240, 230, 140, 0.25); } /* khaki, #f0e68c */
+	.w_C130, .w_C300, .w_C470, .w_C640, .w_C810 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
 	
 	/*----------------------------------*/
 	
@@ -84,7 +84,7 @@
 	
 }
 
-@media only screen and (min-width: 1325px) {
+@media only screen and (min-width: 1345px) {
 	
 	/*-----------------( [D]elta )-----------------*/
 	
@@ -92,21 +92,21 @@
 	 * `px` classes.
 	 */
 	
-	.w_D145 { width: 145px; }
-	.w_D310 { width: 310px; }
-	.w_D475 { width: 475px; }
+	.w_D130 { width: 130px; }
+	.w_D300 { width: 300px; }
+	.w_D470 { width: 470px; }
 	.w_D640 { width: 640px; }
-	.w_C805 { width: 805px; }
-	.w_D970 { width: 970px; }
-	.w_D1135 { width: 1135px; }
-		.debug .w_D145 { background: rgba(128, 128, 128, 0.25); } /* gray, #808080 */
-		.debug .w_D310 { background: rgba(128, 128, 0, 0.25); }   /* olive, #808000 */
-		.debug .w_D475 { background: rgba(255, 255, 0, 0.25); }   /* yellow, #ff0 */
+	.w_C810 { width: 810px; }
+	.w_D980 { width: 980px; }
+	.w_D1150 { width: 1150px; }
+		.debug .w_D130 { background: rgba(128, 128, 128, 0.25); } /* gray, #808080 */
+		.debug .w_D300 { background: rgba(128, 128, 0, 0.25); }   /* olive, #808000 */
+		.debug .w_D470 { background: rgba(255, 255, 0, 0.25); }   /* yellow, #ff0 */
 		.debug .w_D640 { background: rgba(255, 0, 0, 0.25); }     /* red, #f00 */
-		.debug .w_D805 { background: rgba(255, 0, 255, 0.25); }   /* fuchsia, #f0f */
-		.debug .w_D970 { background: rgba(128, 0, 0, 0.25); }     /* maroon, #800000 */
-		.debug .w_D1135 { background: rgba(64, 224, 208, 0.25); } /* turquoise, #40e0d0 */
-	.w_D145, .w_D310, .w_D475, .w_D640, .w_D805, .w_D970, .w_D1135 { margin: 0 0 0 20px; padding: 0; float: left; display: inline; }
+		.debug .w_C810 { background: rgba(255, 0, 255, 0.25); }   /* fuchsia, #f0f */
+		.debug .w_D980 { background: rgba(128, 0, 0, 0.25); }     /* maroon, #800000 */
+		.debug .w_D1150 { background: rgba(64, 224, 208, 0.25); } /* turquoise, #40e0d0 */
+	.w_D130, .w_D300, .w_D470, .w_D640, .w_C810, .w_D980, .w_D1150 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
 	
 	/*----------------------------------*/
 	

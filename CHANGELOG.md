@@ -7,6 +7,17 @@
 
 ---
 
+## v2.0.0
+#### August 13, 2012
+
+* Changed grid margins from 20px to 40px.
+    * When on white background, 40px just looks better.
+* Fixed/updated some comments.
+* Bumped version number to v2.0.0.
+* Updated Photoshop grid PSD.
+
+---
+
 ## v1.0.0
 #### August 2, 2012
 

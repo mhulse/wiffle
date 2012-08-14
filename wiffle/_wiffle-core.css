@@ -7,7 +7,7 @@
 **
 ** "Moblie"
 ** [A]LPHA
-** (viewport < 660):
+** (viewport < 665):
 **
 **--------------------------------------------------------------------------
 */
@@ -25,7 +25,7 @@
 ** "Tablet"
 ** [B]RAVO
 ** Breakpoint #1
-** (viewport > 660) & (viewport < 990):
+** (viewport >= 665) & (viewport < 1005):
 **
 **--------------------------------------------------------------------------
 */
@@ -36,7 +36,7 @@
 	 * Container.
 	 */
 	
-	.wiffle { margin: 0 auto; width: 640px; }
+	.wiffle { width: 640px; margin: 0 auto; }
 	
 }
 
@@ -46,18 +46,18 @@
 ** "Desktop"
 ** [C]HARLIE
 ** Breakpoint #2
-** (viewport > 990) & (viewport < 1320):
+** (viewport >= 1005) & (viewport < 1345):
 **
 **--------------------------------------------------------------------------
 */
 
-@media only screen and (min-width: 995px) { /* 970px + 25px */
+@media only screen and (min-width: 1005px) { /* 980px + 25px */
 	
 	/**
 	 * Container.
 	 */
 	
-	.wiffle { width: 970px; }
+	.wiffle { width: 980px; }
 	
 }
 
@@ -67,17 +67,17 @@
 ** "Big desktop"
 ** [D]ELTA
 ** Breakpoint #3
-** (viewport > 1320):
+** (viewport >= 1345):
 **
 **--------------------------------------------------------------------------
 */
 
-@media only screen and (min-width: 1325px) { /* 1300px + 25px */
+@media only screen and (min-width: 1345px) { /* 1320px + 25px */
 	
 	/**
 	 * Container.
 	 */
 	
-	.wiffle { width: 1300px; }
+	.wiffle { width: 1320px; }
 	
 }
