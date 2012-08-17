@@ -12,13 +12,13 @@
 
 ---
 
-### Wiffle math
+### Wiffle math?
 
 **Check out the awesome [grid calculator](https://docs.google.com/spreadsheet/ccc?key=0As66WXbDZiJHdGFkbkpncUdfVjRMZ0RoRFI1UUg2TWc) created by [Patrick Sullivan](https://github.com/psullivan6).**
 
 ---
 
-### Breakpoint info
+### Breakpoint info?
 
 #### Mobile:
 
@@ -73,4 +73,4 @@ More information coming soon.
 
 ---
 
-Created by [Micky Hulse](http://hulse.me) for [The Register-Guard](http://www.registerguard.com).
+*Created by [Micky Hulse](http://hulse.me) for [The Register-Guard](http://www.registerguard.com).*
