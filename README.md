@@ -1,4 +1,4 @@
-# *Wiffle* = ((640 - 3x) / 4)
+# Wiffle = ((640 - 3x) / 4)
 
 ![Wiffle, it's responsive!](http://registerguard.github.com/wiffle/wiffle.gif)
 
@@ -6,38 +6,42 @@
 
 ---
 
-Check out the [grid calculator](https://docs.google.com/spreadsheet/ccc?key=0As66WXbDZiJHdGFkbkpncUdfVjRMZ0RoRFI1UUg2TWc) created by [Patrick Sullivan](https://github.com/psullivan6).
+## >>> [DEMO](http://registerguard.github.com/wiffle/demo/) <<<
 
 ---
 
-## [DEMO](http://registerguard.github.com/wiffle/demo/)
+### Wiffle math
+
+**Check out the awesome [grid calculator](https://docs.google.com/spreadsheet/ccc?key=0As66WXbDZiJHdGFkbkpncUdfVjRMZ0RoRFI1UUg2TWc) created by [Patrick Sullivan](https://github.com/psullivan6).**
+
+---
 
 ### Breakpoint info
 
-#### "Mobile"
+#### Mobile:
 
-* [A]LPHA
-* (viewport < 665px)
+* **[A]LPHA**
+    * `viewport < 665px`
 
-#### "Tablet"
+#### Tablet:
 
-* [B]RAVO
-* Breakpoint #1
-* (viewport >= 665px) & (viewport < 1005px)
+* **[B]**RAVO  
+* _Breakpoint #1_
+    * `(viewport >= 665px)` & `(viewport < 1005px)`
 
-##### Column sizes (`px`):
+###### Column sizes (`px`):
 
 * `130px`
 * `300px`
 * `470px`
 
-#### "Desktop"
+#### Desktop:
 
-* [C]CHARLIE
-* Breakpoint #2
-* (viewport >= 1005px) & (viewport < 1345px)
+* **[C]**HARLIE
+* _Breakpoint #2_
+    * `(viewport >= 1005px)` & `(viewport < 1345px)`
 
-##### Column sizes (`px`):
+###### Column sizes (`px`):
 
 * `130px`
 * `300px`
@@ -45,13 +49,13 @@ Check out the [grid calculator](https://docs.google.com/spreadsheet/ccc?key=0As6
 * `640px`
 * `810px`
 
-#### "Big desktop"
+#### Big desktop:
 
-* [D]ELTA
-* Breakpoint #3
-* (viewport >= 1345px)
+* **[D]**ELTA
+* _Breakpoint #3_
+    * `viewport >= 1345px`
 
-##### Column sizes (`px`):
+###### Column sizes (`px`):
 
 * `130px`
 * `300px`

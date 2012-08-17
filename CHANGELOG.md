@@ -15,15 +15,18 @@
 * `demo html`: Added a new grid configurations and tweaked heading.
 * Added contributors file.
 * Modified readme.
-* Added `-r` classes for right-floated columns. 
+* Added `-r` classes for right-floated columns.
+* Bumped version number to `v2.1.0`
+* Removed `20px` margin grid png.
+* Minor house cleaning.
 
 ## v2.0.0
 #### August 13, 2012
 
-* Changed grid margins from 20px to 40px.
-    * When on white background, 40px just looks better.
+* Changed grid margins from `20px` to `40px`.
+    * When on white background, `40px` just looks better.
 * Fixed/updated some comments.
-* Bumped version number to v2.0.0.
+* Bumped version number to `v2.0.0`.
 * Updated Photoshop grid PSD.
 
 ---
