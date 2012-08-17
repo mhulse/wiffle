@@ -6,7 +6,9 @@
 
 ---
 
-## >>> [DEMO](http://registerguard.github.com/wiffle/demo/) <<<
+### Demo?
+
+**[Booooooooyah!](http://registerguard.github.com/wiffle/demo/)**
 
 ---
 
