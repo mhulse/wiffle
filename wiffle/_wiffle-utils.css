@@ -7,6 +7,15 @@
 	/*-----------------( [B]ravo )-----------------*/
 	
 	/**
+	 * Clear preceding columns.
+	 */
+	
+	.w_Bcl { clear: left; }
+	.w_Bcr { clear: right; }
+	
+	/*----------------------------------*/
+	
+	/**
 	 * Vertical lines between `px` columns.
 	 * Compatible with IE > 7.
 	 *
@@ -37,6 +46,16 @@
 	/*-----------------( [C]harlie )-----------------*/
 	
 	/**
+	 * Clear preceding columns.
+	 */
+	
+	.w_Bcl, .w_Bcr { clear: none; }
+	.w_Ccl { clear: left; }
+	.w_Ccr { clear: right; }
+	
+	/*----------------------------------*/
+	
+	/**
 	 * Vertical lines between `px` columns.
 	 */
 	
@@ -45,6 +64,16 @@
 }
 
 @media only screen and (min-width: 1345px) {
+	
+	/**
+	 * Clear preceding columns.
+	 */
+	
+	.w_Ccl, .w_Ccr { clear: none; }
+	.w_Dcl { clear: left; }
+	.w_Dcr { clear: right; }
+	
+	/*----------------------------------*/
 	
 	/**
 	 * Vertical lines between `px` columns.

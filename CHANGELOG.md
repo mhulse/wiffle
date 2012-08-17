@@ -7,6 +7,16 @@
 
 ---
 
+## v2.1.0
+#### August 16, 2012
+
+* Fixed `px` class name.
+* Moved `clear` classes to utils file.
+* `demo html`: Added a new grid configurations and tweaked heading.
+* Added contributors file.
+* Modified readme.
+* Added `-r` classes for right-floated columns. 
+
 ## v2.0.0
 #### August 13, 2012
 

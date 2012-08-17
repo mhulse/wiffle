@@ -5,7 +5,7 @@
 /*-----------------( [A]lpha )-----------------*/
 
 /**
- * `px` grid base structure.
+ * Left `px` grid base structure.
  *
  * @see rgne.ws/MopmlH
  */
@@ -14,12 +14,20 @@
 	.w_col { padding: 1px 0; margin: -1px 0; position: relative; } /* rgne.ws/JAoGck */
 		.debug .w_col { background: rgba(0, 0, 255, 0.25); } /* blue, #00f */
 
+/**
+ * Right `px` grid base structure.
+ */
+
+.w_row-r:before, .w_row-r:after { content: ""; display: table; } .w_row-r:after { clear: both; } .w_row-r { *zoom: 1; }
+	.w_col-r { padding: 1px 0; margin: -1px 0; position: relative; }
+		.debug .w_col-r { background: rgba(0, 0, 255, 0.25); } /* blue, #00f */
+
 @media only screen and (min-width: 665px) {
 	
 	/*-----------------( [B]ravo )-----------------*/
 	
 	/**
-	 * `px` rows/cols.
+	 * Left `px` rows/cols.
 	 *
 	 * @see rgne.ws/KdetDk
 	 */
@@ -30,7 +38,16 @@
 	/*----------------------------------*/
 	
 	/**
-	 * `px` classes.
+	 * Right `px` rows/cols.
+	 */
+	
+	.w_row-r { margin-right: -40px; }
+		.w_col-r { padding-right: 40px; } /* IBID */
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Left `px` classes.
 	 *
 	 * @see rgne.ws/KdetDk
 	 */
@@ -46,10 +63,16 @@
 	/*----------------------------------*/
 	
 	/**
-	 * Clear preceding columns.
+	 * Right `px` classes.
 	 */
 	
-	.w_Bx { clear: left; }
+	.w_B130-r { width: 130px; }
+	.w_B300-r { width: 300px; }
+	.w_B470-r { width: 470px; }
+		.debug .w_B130-r { background: rgba(128, 0, 128, 0.25); } /* purple, #800080 */
+		.debug .w_B300-r { background: rgba(0, 0, 128, 0.25); }   /* navy, #000080 */
+		.debug .w_B470-r { background: rgba(0, 128, 128, 0.25); } /* teal, #008080 */
+	.w_B130-r, .w_B300-r, .w_B470-r { margin: 0 40px 0 0; padding: 0; float: right; display: inline; } /* IBID */
 	
 }
 
@@ -58,7 +81,7 @@
 	/*-----------------( [C]harlie )-----------------*/
 	
 	/**
-	 * `px` classes.
+	 * Left `px` classes.
 	 */
 	
 	.w_C130 { width: 130px; }
@@ -76,11 +99,20 @@
 	/*----------------------------------*/
 	
 	/**
-	 * Clear preceding columns.
+	 * Right `px` classes.
 	 */
 	
-	.w_Bx { clear: none; }
-	.w_Cx { clear: left; }
+	.w_C130-r { width: 130px; }
+	.w_C300-r { width: 300px; }
+	.w_C470-r { width: 470px; }
+	.w_C640-r { width: 640px; }
+	.w_C810-r { width: 810px; }
+		.debug .w_C130-r { background: rgba(192, 192, 192, 0.25); } /* silver, #c0c0c0 */
+		.debug .w_C300-r { background: rgba(0, 128, 0, 0.25); }     /* green, #008000 */
+		.debug .w_C470-r { background: rgba(0, 255, 0, 0.25); }     /* lime, #0f0 */
+		.debug .w_C640-r { background: rgba(255, 255, 255, 0.25); } /* white, #fff */
+		.debug .w_C810-r { background: rgba(240, 230, 140, 0.25); } /* khaki, #f0e68c */
+	.w_C130-r, .w_C300-r, .w_C470-r, .w_C640-r, .w_C810-r { margin: 0 40px 0 0; padding: 0; float: right; display: inline; }
 	
 }
 
@@ -89,32 +121,45 @@
 	/*-----------------( [D]elta )-----------------*/
 	
 	/**
-	 * `px` classes.
+	 * Left `px` classes.
 	 */
 	
 	.w_D130 { width: 130px; }
 	.w_D300 { width: 300px; }
 	.w_D470 { width: 470px; }
 	.w_D640 { width: 640px; }
-	.w_C810 { width: 810px; }
+	.w_D810 { width: 810px; }
 	.w_D980 { width: 980px; }
 	.w_D1150 { width: 1150px; }
 		.debug .w_D130 { background: rgba(128, 128, 128, 0.25); } /* gray, #808080 */
 		.debug .w_D300 { background: rgba(128, 128, 0, 0.25); }   /* olive, #808000 */
 		.debug .w_D470 { background: rgba(255, 255, 0, 0.25); }   /* yellow, #ff0 */
 		.debug .w_D640 { background: rgba(255, 0, 0, 0.25); }     /* red, #f00 */
-		.debug .w_C810 { background: rgba(255, 0, 255, 0.25); }   /* fuchsia, #f0f */
+		.debug .w_D810 { background: rgba(255, 0, 255, 0.25); }   /* fuchsia, #f0f */
 		.debug .w_D980 { background: rgba(128, 0, 0, 0.25); }     /* maroon, #800000 */
 		.debug .w_D1150 { background: rgba(64, 224, 208, 0.25); } /* turquoise, #40e0d0 */
-	.w_D130, .w_D300, .w_D470, .w_D640, .w_C810, .w_D980, .w_D1150 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
+	.w_D130, .w_D300, .w_D470, .w_D640, .w_D810, .w_D980, .w_D1150 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
 	
 	/*----------------------------------*/
 	
 	/**
-	 * Clear preceding columns.
+	 * Right `px` classes.
 	 */
 	
-	.w_Cx { clear: none; }
-	.w_Dx { clear: left; }
+	.w_D130-r { width: 130px; }
+	.w_D300-r { width: 300px; }
+	.w_D470-r { width: 470px; }
+	.w_D640-r { width: 640px; }
+	.w_D810-r { width: 810px; }
+	.w_D980-r { width: 980px; }
+	.w_D1150-r { width: 1150px; }
+		.debug .w_D130-r { background: rgba(128, 128, 128, 0.25); } /* gray, #808080 */
+		.debug .w_D300-r { background: rgba(128, 128, 0, 0.25); }   /* olive, #808000 */
+		.debug .w_D470-r { background: rgba(255, 255, 0, 0.25); }   /* yellow, #ff0 */
+		.debug .w_D640-r { background: rgba(255, 0, 0, 0.25); }     /* red, #f00 */
+		.debug .w_D810-r { background: rgba(255, 0, 255, 0.25); }   /* fuchsia, #f0f */
+		.debug .w_D980-r { background: rgba(128, 0, 0, 0.25); }     /* maroon, #800000 */
+		.debug .w_D1150-r { background: rgba(64, 224, 208, 0.25); } /* turquoise, #40e0d0 */
+	.w_D130-r, .w_D300-r, .w_D470-r, .w_D640-r, .w_D810-r, .w_D980-r, .w_D1150-r { margin: 0 40px 0 0; padding: 0; float: right; display: inline; }
 	
 }
