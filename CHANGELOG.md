@@ -7,12 +7,26 @@
 
 ---
 
+## v2.2.0
+#### August 26, 2012
+
+* Removed `-r` classes.
+    * Caused horizontal scrollbar.
+    * Wasn't very [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+* Added new `float: right` class for `px` rows that affect child columns.
+* Cleaned up css just a tad.
+* Bumped minor version number.
+* Modified demo html to reflect latest changes to css.
+* Updated `README.md`.
+
+---
+
 ## v2.1.0
 #### August 16, 2012
 
 * Fixed `px` class name.
 * Moved `clear` classes to utils file.
-* `demo html`: Added a new grid configurations and tweaked heading.
+* `demo/index.html`: Added a new grid configurations and tweaked heading.
 * Added contributors file.
 * Modified readme.
 * Added `-r` classes for right-floated columns.

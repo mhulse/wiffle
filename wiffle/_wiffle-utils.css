@@ -4,14 +4,22 @@
 
 @media only screen and (min-width: 665px) {
 	
-	/*-----------------( [B]ravo )-----------------*/
+	/*-----------------( [ B ]RAVO )-----------------*/
 	
 	/**
-	 * Clear preceding columns.
+	 * Right `px` cols.
+	 * Compatible with IE > 6.
 	 */
 	
-	.w_Bcl { clear: left; }
-	.w_Bcr { clear: right; }
+	.w_row.w_Bfr > .w_col { float: right; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear preceding/succeeding columns.
+	 */
+	
+	.w_Bcl { clear: left; } .w_Bcr { clear: right; }
 	
 	/*----------------------------------*/
 	
@@ -22,36 +30,28 @@
 	 * @see rgne.ws/M85ynR
 	 */
 	
-	/* Initialize: */
-	
-	.w_lb:before, .w_la:after {
-		border-right: 1px solid #ccc;
-		content: "";
-		display: none;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-	}
-	.w_lb:before { left: -21px; }
-	.w_la:after { right: -20px; }
-	
-	/* Breakpoints: */
-	
+	.w_lb:before, .w_la:after { border-right: 1px solid #ccc; content: ""; display: none; position: absolute; top: 0; bottom: 0; } .w_lb:before { left: -21px; } .w_la:after { right: -20px; }
 	.w_Bl:before, .w_Bl:after { display: block; }
 	
 }
 
 @media only screen and (min-width: 1005px) {
 	
-	/*-----------------( [C]harlie )-----------------*/
+	/*-----------------( [ C ]HARLIE )-----------------*/
 	
 	/**
-	 * Clear preceding columns.
+	 * Right `px` cols.
 	 */
 	
-	.w_Bcl, .w_Bcr { clear: none; }
-	.w_Ccl { clear: left; }
-	.w_Ccr { clear: right; }
+	.w_row.w_Cfr > .w_col { float: right; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear preceding/succeeding columns.
+	 */
+	
+	.w_Bcl, .w_Bcr { clear: none; } .w_Ccl { clear: left; } .w_Ccr { clear: right; }
 	
 	/*----------------------------------*/
 	
@@ -65,13 +65,21 @@
 
 @media only screen and (min-width: 1345px) {
 	
+	/*-----------------( [ D ]ELTA )-----------------*/
+	
 	/**
-	 * Clear preceding columns.
+	 * Right `px` cols.
 	 */
 	
-	.w_Ccl, .w_Ccr { clear: none; }
-	.w_Dcl { clear: left; }
-	.w_Dcr { clear: right; }
+	.w_row.w_Dfr > .w_col { float: right; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear preceding/succeeding columns.
+	 */
+	
+	.w_Ccl, .w_Ccr { clear: none; } .w_Dcl { clear: left; } .w_Dcr { clear: right; }
 	
 	/*----------------------------------*/
 	
