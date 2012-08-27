@@ -6,15 +6,7 @@
 
 ---
 
-### Demo?
-
-**[Booyah!](http://registerguard.github.com/wiffle/demo/)**
-
----
-
-### More info?
-
-Yup, [over here...](https://github.com/registerguard/wiffle/wiki)
+**[Demo](http://registerguard.github.com/wiffle/demo/) | [More info](https://github.com/registerguard/wiffle/wiki)**
 
 ---
 
