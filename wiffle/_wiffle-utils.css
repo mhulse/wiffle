@@ -7,19 +7,25 @@
 	/*-----------------( [ B ]RAVO )-----------------*/
 	
 	/**
-	 * Right `px` cols.
-	 * Compatible with IE > 6.
+	 * Clear preceding columns.
 	 */
 	
-	.w_row.w_Bfr > .w_col { float: right; }
+	.w_Bc { clear: left; }
 	
 	/*----------------------------------*/
 	
 	/**
-	 * Clear preceding/succeeding columns.
+	 * Right `px` cols.
+	 * Compatible with IE > 6.
 	 */
 	
-	.w_Bcl { clear: left; } .w_Bcr { clear: right; }
+	.w_row.w_Br > .w_col { float: right; }
+	
+	/**
+	 * Clear succeeding columns.
+	 */
+	
+	.w_row.w_Br > .w_col.w_Bc { clear: right; }
 	
 	/*----------------------------------*/
 	
@@ -40,18 +46,24 @@
 	/*-----------------( [ C ]HARLIE )-----------------*/
 	
 	/**
-	 * Right `px` cols.
+	 * Clear preceding columns.
 	 */
 	
-	.w_row.w_Cfr > .w_col { float: right; }
+	.w_Bc { clear: none; } .w_Cc { clear: left; }
 	
 	/*----------------------------------*/
 	
 	/**
-	 * Clear preceding/succeeding columns.
+	 * Right `px` cols.
 	 */
 	
-	.w_Bcl, .w_Bcr { clear: none; } .w_Ccl { clear: left; } .w_Ccr { clear: right; }
+	.w_row.w_Cr > .w_col { float: right; }
+	
+	/**
+	 * Clear succeeding columns.
+	 */
+	
+	.w_row.w_Br > .w_col.w_Bc { clear: none; } .w_row.w_Cr > .w_col.w_Cc { clear: right; }
 	
 	/*----------------------------------*/
 	
@@ -68,18 +80,24 @@
 	/*-----------------( [ D ]ELTA )-----------------*/
 	
 	/**
-	 * Right `px` cols.
+	 * Clear preceding columns.
 	 */
 	
-	.w_row.w_Dfr > .w_col { float: right; }
+	.w_Cc { clear: none; } .w_Dc { clear: left; }
 	
 	/*----------------------------------*/
 	
 	/**
-	 * Clear preceding/succeeding columns.
+	 * Right `px` cols.
 	 */
 	
-	.w_Ccl, .w_Ccr { clear: none; } .w_Dcl { clear: left; } .w_Dcr { clear: right; }
+	.w_row.w_Dr > .w_col { float: right; }
+	
+	/**
+	 * Clear succeeding columns.
+	 */
+	
+	.w_row.w_Cr > .w_col.w_Cc { clear: none; } .w_row.w_Dr > .w_col.w_Dc { clear: right; }
 	
 	/*----------------------------------*/
 	
