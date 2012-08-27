@@ -7,7 +7,7 @@
 
 ---
 
-## v2.2.0
+## v3.0.0
 #### August 26, 2012
 
 * Removed `-r` classes.
@@ -15,7 +15,7 @@
     * Wasn't very [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 * Added new `float: right` class for `px` rows that affect child columns.
 * Cleaned up css just a tad.
-* Bumped minor version number.
+* Bumped major version number.
 * Modified demo html to reflect latest changes to css.
 * Updated `README.md`.
 
