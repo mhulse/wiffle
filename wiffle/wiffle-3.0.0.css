@@ -17,7 +17,7 @@
  */
 
 .wiffle { margin: 0 10px; }
-	.debug .wiffle { background-color: rgba(0, 0, 0, 0.25); } /* black, #000 */
+	.debug .wiffle { background-color: rgba(0, 0, 0, .25); } /* black, #000 */
 
 /*
 **--------------------------------------------------------------------------
@@ -96,7 +96,7 @@
 
 .w_row:before, .w_row:after { content: ""; display: table; } .w_row:after { clear: both; } .w_row { *zoom: 1; } /* rgne.ws/KZHkqq */
 	.w_col { padding: 1px 0; margin: -1px 0; position: relative; } /* rgne.ws/JAoGck */
-		.debug .w_col { background: rgba(0, 0, 255, 0.25); } /* blue, #00f */
+		.debug .w_col { background: rgba(0, 0, 255, .25); } /* blue, #00f */
 
 @media only screen and (min-width: 665px) {
 	
@@ -122,9 +122,9 @@
 	.w_B130 { width: 130px; }
 	.w_B300 { width: 300px; }
 	.w_B470 { width: 470px; }
-		.debug .w_B130 { background: rgba(128, 0, 128, 0.25); } /* purple, #800080 */
-		.debug .w_B300 { background: rgba(0, 0, 128, 0.25); }   /* navy, #000080 */
-		.debug .w_B470 { background: rgba(0, 128, 128, 0.25); } /* teal, #008080 */
+		.debug .w_B130 { background: rgba(128, 0, 128, .25); } /* purple, #800080 */
+		.debug .w_B300 { background: rgba(0, 0, 128, .25); }   /* navy, #000080 */
+		.debug .w_B470 { background: rgba(0, 128, 128, .25); } /* teal, #008080 */
 	.w_B130, .w_B300, .w_B470 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; } /* Remove padding in place of margin (see link above). */
 	
 }
@@ -142,11 +142,11 @@
 	.w_C470 { width: 470px; }
 	.w_C640 { width: 640px; }
 	.w_C810 { width: 810px; }
-		.debug .w_C130 { background: rgba(192, 192, 192, 0.25); } /* silver, #c0c0c0 */
-		.debug .w_C300 { background: rgba(0, 128, 0, 0.25); }     /* green, #008000 */
-		.debug .w_C470 { background: rgba(0, 255, 0, 0.25); }     /* lime, #0f0 */
-		.debug .w_C640 { background: rgba(255, 255, 255, 0.25); } /* white, #fff */
-		.debug .w_C810 { background: rgba(240, 230, 140, 0.25); } /* khaki, #f0e68c */
+		.debug .w_C130 { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
+		.debug .w_C300 { background: rgba(0, 128, 0, .25); }     /* green, #008000 */
+		.debug .w_C470 { background: rgba(0, 255, 0, .25); }     /* lime, #0f0 */
+		.debug .w_C640 { background: rgba(255, 255, 255, .25); } /* white, #fff */
+		.debug .w_C810 { background: rgba(240, 230, 140, .25); } /* khaki, #f0e68c */
 	.w_C130, .w_C300, .w_C470, .w_C640, .w_C810 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
 	
 }
@@ -166,13 +166,13 @@
 	.w_D810 { width: 810px; }
 	.w_D980 { width: 980px; }
 	.w_D1150 { width: 1150px; }
-		.debug .w_D130 { background: rgba(128, 128, 128, 0.25); } /* gray, #808080 */
-		.debug .w_D300 { background: rgba(128, 128, 0, 0.25); }   /* olive, #808000 */
-		.debug .w_D470 { background: rgba(255, 255, 0, 0.25); }   /* yellow, #ff0 */
-		.debug .w_D640 { background: rgba(255, 0, 0, 0.25); }     /* red, #f00 */
-		.debug .w_D810 { background: rgba(255, 0, 255, 0.25); }   /* fuchsia, #f0f */
-		.debug .w_D980 { background: rgba(128, 0, 0, 0.25); }     /* maroon, #800000 */
-		.debug .w_D1150 { background: rgba(64, 224, 208, 0.25); } /* turquoise, #40e0d0 */
+		.debug .w_D130 { background: rgba(128, 128, 128, .25); } /* gray, #808080 */
+		.debug .w_D300 { background: rgba(128, 128, 0, .25); }   /* olive, #808000 */
+		.debug .w_D470 { background: rgba(255, 255, 0, .25); }   /* yellow, #ff0 */
+		.debug .w_D640 { background: rgba(255, 0, 0, .25); }     /* red, #f00 */
+		.debug .w_D810 { background: rgba(255, 0, 255, .25); }   /* fuchsia, #f0f */
+		.debug .w_D980 { background: rgba(128, 0, 0, .25); }     /* maroon, #800000 */
+		.debug .w_D1150 { background: rgba(64, 224, 208, .25); } /* turquoise, #40e0d0 */
 	.w_D130, .w_D300, .w_D470, .w_D640, .w_D810, .w_D980, .w_D1150 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
 	
 }
@@ -191,7 +191,7 @@
 
 .w_line:before, .w_line:after { content: ""; display: table; } .w_line:after { clear: both; } .w_line { *zoom: 1; } /* rgne.ws/KZHkqq */
 	.w_unit { float: left; display: inline; width: 100%; position: relative; }
-		.debug .w_unit { background: rgba(0, 0, 255, 0.25); } /* blue, #00f */
+		.debug .w_unit { background: rgba(0, 0, 255, .25); } /* blue, #00f */
 
 /*----------------------------------*/
 
@@ -220,27 +220,27 @@
 .w_A3of8 { width: 37.5%; }
 .w_A5of8 { width: 62.5%; }
 .w_A7of8 { width: 87.5%; }
-	.debug .w_A1of2 { background: rgba(128, 0, 0, 0.25); }     /* maroon, #800000 */
-	.debug .w_A1of3 { background: rgba(255, 0, 0, 0.25); }     /* red, #f00 */
-	.debug .w_A2of3 { background: rgba(255, 255, 0, 0.25); }   /* yellow, #ff0 */
-	.debug .w_A1of4 { background: rgba(128, 128, 0, 0.25); }   /* olive, #808000 */
-	.debug .w_A3of4 { background: rgba(128, 128, 128, 0.25); } /* gray, #808080 */
-	.debug .w_A1of5 { background: rgba(255, 0, 255, 0.25); }   /* fuchsia, #f0f */
-	.debug .w_A2of5 { background: rgba(255, 255, 255, 0.25); } /* white, #fff */
-	.debug .w_A3of5 { background: rgba(0, 255, 0, 0.25); }     /* lime, #0f0 */
-	.debug .w_A4of5 { background: rgba(0, 128, 0, 0.25); }     /* green, #008000 */
-	.debug .w_A1of6 { background: rgba(192, 192, 192, 0.25); } /* silver, #c0c0c0 */
-	.debug .w_A5of6 { background: rgba(0, 255, 255, 0.25); }   /* aqua, #0ff */
-	.debug .w_A1of7 { background: rgba(0, 128, 128, 0.25); }   /* teal, #008080 */
-	.debug .w_A2of7 { background: rgba(0, 0, 128, 0.25); }     /* navy, #000080 */
-	.debug .w_A3of7 { background: rgba(128, 0, 128, 0.25); }   /* purple, #800080 */
-	.debug .w_A4of7 { background: rgba(255, 165, 0, 0.25); }   /* orange, #ffa500 */
-	.debug .w_A5of7 { background: rgba(0, 0, 255, 0.25); }     /* blue, #00f */
-	.debug .w_A6of7 { background: rgba(216, 191, 216, 0.25); } /* thistle, #d8bfd8 */
-	.debug .w_A1of8 { background: rgba(160, 82, 45, 0.25); }   /* sienna, #a0522d */
-	.debug .w_A3of8 { background: rgba(218, 165, 32, 0.25); }  /* goldenrod, #daa520 */
-	.debug .w_A5of8 { background: rgba(210, 180, 140, 0.25); } /* tan, #d2b48c */
-	.debug .w_A7of8 { background: rgba(255, 127, 80, 0.25); }  /* coral, #ff7f50 */
+	.debug .w_A1of2 { background: rgba(128, 0, 0, .25); }     /* maroon, #800000 */
+	.debug .w_A1of3 { background: rgba(255, 0, 0, .25); }     /* red, #f00 */
+	.debug .w_A2of3 { background: rgba(255, 255, 0, .25); }   /* yellow, #ff0 */
+	.debug .w_A1of4 { background: rgba(128, 128, 0, .25); }   /* olive, #808000 */
+	.debug .w_A3of4 { background: rgba(128, 128, 128, .25); } /* gray, #808080 */
+	.debug .w_A1of5 { background: rgba(255, 0, 255, .25); }   /* fuchsia, #f0f */
+	.debug .w_A2of5 { background: rgba(255, 255, 255, .25); } /* white, #fff */
+	.debug .w_A3of5 { background: rgba(0, 255, 0, .25); }     /* lime, #0f0 */
+	.debug .w_A4of5 { background: rgba(0, 128, 0, .25); }     /* green, #008000 */
+	.debug .w_A1of6 { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
+	.debug .w_A5of6 { background: rgba(0, 255, 255, .25); }   /* aqua, #0ff */
+	.debug .w_A1of7 { background: rgba(0, 128, 128, .25); }   /* teal, #008080 */
+	.debug .w_A2of7 { background: rgba(0, 0, 128, .25); }     /* navy, #000080 */
+	.debug .w_A3of7 { background: rgba(128, 0, 128, .25); }   /* purple, #800080 */
+	.debug .w_A4of7 { background: rgba(255, 165, 0, .25); }   /* orange, #ffa500 */
+	.debug .w_A5of7 { background: rgba(0, 0, 255, .25); }     /* blue, #00f */
+	.debug .w_A6of7 { background: rgba(216, 191, 216, .25); } /* thistle, #d8bfd8 */
+	.debug .w_A1of8 { background: rgba(160, 82, 45, .25); }   /* sienna, #a0522d */
+	.debug .w_A3of8 { background: rgba(218, 165, 32, .25); }  /* goldenrod, #daa520 */
+	.debug .w_A5of8 { background: rgba(210, 180, 140, .25); } /* tan, #d2b48c */
+	.debug .w_A7of8 { background: rgba(255, 127, 80, .25); }  /* coral, #ff7f50 */
 .w_Afix { width: auto; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; _margin-right: -3px; }
 
 @media only screen and (min-width: 665px) {
@@ -272,27 +272,27 @@
 	.w_B3of8 { width: 37.5%; }
 	.w_B5of8 { width: 62.5%; }
 	.w_B7of8 { width: 87.5%; }
-		.debug .w_B1of2 { background: rgba(128, 0, 0, 0.25); }     /* maroon, #800000 */
-		.debug .w_B1of3 { background: rgba(255, 0, 0, 0.25); }     /* red, #f00 */
-		.debug .w_B2of3 { background: rgba(255, 255, 0, 0.25); }   /* yellow, #ff0 */
-		.debug .w_B1of4 { background: rgba(128, 128, 0, 0.25); }   /* olive, #808000 */
-		.debug .w_B3of4 { background: rgba(128, 128, 128, 0.25); } /* gray, #808080 */
-		.debug .w_B1of5 { background: rgba(255, 0, 255, 0.25); }   /* fuchsia, #f0f */
-		.debug .w_B2of5 { background: rgba(255, 255, 255, 0.25); } /* white, #fff */
-		.debug .w_B3of5 { background: rgba(0, 255, 0, 0.25); }     /* lime, #0f0 */
-		.debug .w_B4of5 { background: rgba(0, 128, 0, 0.25); }     /* green, #008000 */
-		.debug .w_B1of6 { background: rgba(192, 192, 192, 0.25); } /* silver, #c0c0c0 */
-		.debug .w_B5of6 { background: rgba(0, 255, 255, 0.25); }   /* aqua, #0ff */
-		.debug .w_B1of7 { background: rgba(0, 128, 128, 0.25); }   /* teal, #008080 */
-		.debug .w_B2of7 { background: rgba(0, 0, 128, 0.25); }     /* navy, #000080 */
-		.debug .w_B3of7 { background: rgba(128, 0, 128, 0.25); }   /* purple, #800080 */
-		.debug .w_B4of7 { background: rgba(255, 165, 0, 0.25); }   /* orange, #ffa500 */
-		.debug .w_B5of7 { background: rgba(0, 0, 255, 0.25); }     /* blue, #00f */
-		.debug .w_B6of7 { background: rgba(216, 191, 216, 0.25); } /* thistle, #d8bfd8 */
-		.debug .w_B1of8 { background: rgba(160, 82, 45, 0.25); }   /* sienna, #a0522d */
-		.debug .w_B3of8 { background: rgba(218, 165, 32, 0.25); }  /* goldenrod, #daa520 */
-		.debug .w_B5of8 { background: rgba(210, 180, 140, 0.25); } /* tan, #d2b48c */
-		.debug .w_B7of8 { background: rgba(255, 127, 80, 0.25); }  /* coral, #ff7f50 */
+		.debug .w_B1of2 { background: rgba(128, 0, 0, .25); }     /* maroon, #800000 */
+		.debug .w_B1of3 { background: rgba(255, 0, 0, .25); }     /* red, #f00 */
+		.debug .w_B2of3 { background: rgba(255, 255, 0, .25); }   /* yellow, #ff0 */
+		.debug .w_B1of4 { background: rgba(128, 128, 0, .25); }   /* olive, #808000 */
+		.debug .w_B3of4 { background: rgba(128, 128, 128, .25); } /* gray, #808080 */
+		.debug .w_B1of5 { background: rgba(255, 0, 255, .25); }   /* fuchsia, #f0f */
+		.debug .w_B2of5 { background: rgba(255, 255, 255, .25); } /* white, #fff */
+		.debug .w_B3of5 { background: rgba(0, 255, 0, .25); }     /* lime, #0f0 */
+		.debug .w_B4of5 { background: rgba(0, 128, 0, .25); }     /* green, #008000 */
+		.debug .w_B1of6 { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
+		.debug .w_B5of6 { background: rgba(0, 255, 255, .25); }   /* aqua, #0ff */
+		.debug .w_B1of7 { background: rgba(0, 128, 128, .25); }   /* teal, #008080 */
+		.debug .w_B2of7 { background: rgba(0, 0, 128, .25); }     /* navy, #000080 */
+		.debug .w_B3of7 { background: rgba(128, 0, 128, .25); }   /* purple, #800080 */
+		.debug .w_B4of7 { background: rgba(255, 165, 0, .25); }   /* orange, #ffa500 */
+		.debug .w_B5of7 { background: rgba(0, 0, 255, .25); }     /* blue, #00f */
+		.debug .w_B6of7 { background: rgba(216, 191, 216, .25); } /* thistle, #d8bfd8 */
+		.debug .w_B1of8 { background: rgba(160, 82, 45, .25); }   /* sienna, #a0522d */
+		.debug .w_B3of8 { background: rgba(218, 165, 32, .25); }  /* goldenrod, #daa520 */
+		.debug .w_B5of8 { background: rgba(210, 180, 140, .25); } /* tan, #d2b48c */
+		.debug .w_B7of8 { background: rgba(255, 127, 80, .25); }  /* coral, #ff7f50 */
 	.w_Bfix { width: auto; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; _margin-right: -3px; }
 	
 }
@@ -326,27 +326,27 @@
 	.w_C3of8 { width: 37.5%; }
 	.w_C5of8 { width: 62.5%; }
 	.w_C7of8 { width: 87.5%; }
-		.debug .w_C1of2 { background: rgba(128, 0, 0, 0.25); }     /* maroon, #800000 */
-		.debug .w_C1of3 { background: rgba(255, 0, 0, 0.25); }     /* red, #f00 */
-		.debug .w_C2of3 { background: rgba(255, 255, 0, 0.25); }   /* yellow, #ff0 */
-		.debug .w_C1of4 { background: rgba(128, 128, 0, 0.25); }   /* olive, #808000 */
-		.debug .w_C3of4 { background: rgba(128, 128, 128, 0.25); } /* gray, #808080 */
-		.debug .w_C1of5 { background: rgba(255, 0, 255, 0.25); }   /* fuchsia, #f0f */
-		.debug .w_C2of5 { background: rgba(255, 255, 255, 0.25); } /* white, #fff */
-		.debug .w_C3of5 { background: rgba(0, 255, 0, 0.25); }     /* lime, #0f0 */
-		.debug .w_C4of5 { background: rgba(0, 128, 0, 0.25); }     /* green, #008000 */
-		.debug .w_C1of6 { background: rgba(192, 192, 192, 0.25); } /* silver, #c0c0c0 */
-		.debug .w_C5of6 { background: rgba(0, 255, 255, 0.25); }   /* aqua, #0ff */
-		.debug .w_C1of7 { background: rgba(0, 128, 128, 0.25); }   /* teal, #008080 */
-		.debug .w_C2of7 { background: rgba(0, 0, 128, 0.25); }     /* navy, #000080 */
-		.debug .w_C3of7 { background: rgba(128, 0, 128, 0.25); }   /* purple, #800080 */
-		.debug .w_C4of7 { background: rgba(255, 165, 0, 0.25); }   /* orange, #ffa500 */
-		.debug .w_C5of7 { background: rgba(0, 0, 255, 0.25); }     /* blue, #00f */
-		.debug .w_C6of7 { background: rgba(216, 191, 216, 0.25); } /* thistle, #d8bfd8 */
-		.debug .w_C1of8 { background: rgba(160, 82, 45, 0.25); }   /* sienna, #a0522d */
-		.debug .w_C3of8 { background: rgba(218, 165, 32, 0.25); }  /* goldenrod, #daa520 */
-		.debug .w_C5of8 { background: rgba(210, 180, 140, 0.25); } /* tan, #d2b48c */
-		.debug .w_C7of8 { background: rgba(255, 127, 80, 0.25); }  /* coral, #ff7f50 */
+		.debug .w_C1of2 { background: rgba(128, 0, 0, .25); }     /* maroon, #800000 */
+		.debug .w_C1of3 { background: rgba(255, 0, 0, .25); }     /* red, #f00 */
+		.debug .w_C2of3 { background: rgba(255, 255, 0, .25); }   /* yellow, #ff0 */
+		.debug .w_C1of4 { background: rgba(128, 128, 0, .25); }   /* olive, #808000 */
+		.debug .w_C3of4 { background: rgba(128, 128, 128, .25); } /* gray, #808080 */
+		.debug .w_C1of5 { background: rgba(255, 0, 255, .25); }   /* fuchsia, #f0f */
+		.debug .w_C2of5 { background: rgba(255, 255, 255, .25); } /* white, #fff */
+		.debug .w_C3of5 { background: rgba(0, 255, 0, .25); }     /* lime, #0f0 */
+		.debug .w_C4of5 { background: rgba(0, 128, 0, .25); }     /* green, #008000 */
+		.debug .w_C1of6 { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
+		.debug .w_C5of6 { background: rgba(0, 255, 255, .25); }   /* aqua, #0ff */
+		.debug .w_C1of7 { background: rgba(0, 128, 128, .25); }   /* teal, #008080 */
+		.debug .w_C2of7 { background: rgba(0, 0, 128, .25); }     /* navy, #000080 */
+		.debug .w_C3of7 { background: rgba(128, 0, 128, .25); }   /* purple, #800080 */
+		.debug .w_C4of7 { background: rgba(255, 165, 0, .25); }   /* orange, #ffa500 */
+		.debug .w_C5of7 { background: rgba(0, 0, 255, .25); }     /* blue, #00f */
+		.debug .w_C6of7 { background: rgba(216, 191, 216, .25); } /* thistle, #d8bfd8 */
+		.debug .w_C1of8 { background: rgba(160, 82, 45, .25); }   /* sienna, #a0522d */
+		.debug .w_C3of8 { background: rgba(218, 165, 32, .25); }  /* goldenrod, #daa520 */
+		.debug .w_C5of8 { background: rgba(210, 180, 140, .25); } /* tan, #d2b48c */
+		.debug .w_C7of8 { background: rgba(255, 127, 80, .25); }  /* coral, #ff7f50 */
 	.w_Cfix { width: auto; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; _margin-right: -3px; }
 	
 }
@@ -380,27 +380,27 @@
 	.w_D3of8 { width: 37.5%; }
 	.w_D5of8 { width: 62.5%; }
 	.w_D7of8 { width: 87.5%; }
-		.debug .w_D1of2 { background: rgba(128, 0, 0, 0.25); }     /* maroon, #800000 */
-		.debug .w_D1of3 { background: rgba(255, 0, 0, 0.25); }     /* red, #f00 */
-		.debug .w_D2of3 { background: rgba(255, 255, 0, 0.25); }   /* yellow, #ff0 */
-		.debug .w_D1of4 { background: rgba(128, 128, 0, 0.25); }   /* olive, #808000 */
-		.debug .w_D3of4 { background: rgba(128, 128, 128, 0.25); } /* gray, #808080 */
-		.debug .w_D1of5 { background: rgba(255, 0, 255, 0.25); }   /* fuchsia, #f0f */
-		.debug .w_D2of5 { background: rgba(255, 255, 255, 0.25); } /* white, #fff */
-		.debug .w_D3of5 { background: rgba(0, 255, 0, 0.25); }     /* lime, #0f0 */
-		.debug .w_D4of5 { background: rgba(0, 128, 0, 0.25); }     /* green, #008000 */
-		.debug .w_D1of6 { background: rgba(192, 192, 192, 0.25); } /* silver, #c0c0c0 */
-		.debug .w_D5of6 { background: rgba(0, 255, 255, 0.25); }   /* aqua, #0ff */
-		.debug .w_D1of7 { background: rgba(0, 128, 128, 0.25); }   /* teal, #008080 */
-		.debug .w_D2of7 { background: rgba(0, 0, 128, 0.25); }     /* navy, #000080 */
-		.debug .w_D3of7 { background: rgba(128, 0, 128, 0.25); }   /* purple, #800080 */
-		.debug .w_D4of7 { background: rgba(255, 165, 0, 0.25); }   /* orange, #ffa500 */
-		.debug .w_D5of7 { background: rgba(0, 0, 255, 0.25); }     /* blue, #00f */
-		.debug .w_D6of7 { background: rgba(216, 191, 216, 0.25); } /* thistle, #d8bfd8 */
-		.debug .w_D1of8 { background: rgba(160, 82, 45, 0.25); }   /* sienna, #a0522d */
-		.debug .w_D3of8 { background: rgba(218, 165, 32, 0.25); }  /* goldenrod, #daa520 */
-		.debug .w_D5of8 { background: rgba(210, 180, 140, 0.25); } /* tan, #d2b48c */
-		.debug .w_D7of8 { background: rgba(255, 127, 80, 0.25); }  /* coral, #ff7f50 */
+		.debug .w_D1of2 { background: rgba(128, 0, 0, .25); }     /* maroon, #800000 */
+		.debug .w_D1of3 { background: rgba(255, 0, 0, .25); }     /* red, #f00 */
+		.debug .w_D2of3 { background: rgba(255, 255, 0, .25); }   /* yellow, #ff0 */
+		.debug .w_D1of4 { background: rgba(128, 128, 0, .25); }   /* olive, #808000 */
+		.debug .w_D3of4 { background: rgba(128, 128, 128, .25); } /* gray, #808080 */
+		.debug .w_D1of5 { background: rgba(255, 0, 255, .25); }   /* fuchsia, #f0f */
+		.debug .w_D2of5 { background: rgba(255, 255, 255, .25); } /* white, #fff */
+		.debug .w_D3of5 { background: rgba(0, 255, 0, .25); }     /* lime, #0f0 */
+		.debug .w_D4of5 { background: rgba(0, 128, 0, .25); }     /* green, #008000 */
+		.debug .w_D1of6 { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
+		.debug .w_D5of6 { background: rgba(0, 255, 255, .25); }   /* aqua, #0ff */
+		.debug .w_D1of7 { background: rgba(0, 128, 128, .25); }   /* teal, #008080 */
+		.debug .w_D2of7 { background: rgba(0, 0, 128, .25); }     /* navy, #000080 */
+		.debug .w_D3of7 { background: rgba(128, 0, 128, .25); }   /* purple, #800080 */
+		.debug .w_D4of7 { background: rgba(255, 165, 0, .25); }   /* orange, #ffa500 */
+		.debug .w_D5of7 { background: rgba(0, 0, 255, .25); }     /* blue, #00f */
+		.debug .w_D6of7 { background: rgba(216, 191, 216, .25); } /* thistle, #d8bfd8 */
+		.debug .w_D1of8 { background: rgba(160, 82, 45, .25); }   /* sienna, #a0522d */
+		.debug .w_D3of8 { background: rgba(218, 165, 32, .25); }  /* goldenrod, #daa520 */
+		.debug .w_D5of8 { background: rgba(210, 180, 140, .25); } /* tan, #d2b48c */
+		.debug .w_D7of8 { background: rgba(255, 127, 80, .25); }  /* coral, #ff7f50 */
 	.w_Dfix { width: auto; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; _margin-right: -3px; }
 	
 }
