@@ -7,6 +7,17 @@
 
 ---
 
+## v3.1.0
+#### September 17, 2012
+
+* Modified util classes for lines between columns.
+    * Things have become more verbose but they are now more versatile when the column number is >= 3.
+* Added `TODO.md` file.
+* Updated `demo.html`.
+* Bumped minor version number.
+
+---
+
 ## v3.0.0
 #### August 26, 2012
 

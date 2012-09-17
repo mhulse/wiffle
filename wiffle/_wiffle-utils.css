@@ -36,8 +36,10 @@
 	 * @see rgne.ws/M85ynR
 	 */
 	
-	.w_lb:before, .w_la:after { border-right: 1px solid #ccc; content: ""; display: none; position: absolute; top: 0; bottom: 0; } .w_lb:before { left: -21px; } .w_la:after { right: -20px; }
-	.w_Bl:before, .w_Bl:after { display: block; }
+	.w_Blb:before, .w_Clb:before, .w_Dlb:before, .w_Bla:after, .w_Cla:after, .w_Dla:after { border-right: 1px solid #ccc; content: ""; display: none; position: absolute; top: 0; bottom: 0; }
+	.w_Blb:before, .w_Clb:before, .w_Dlb:before { left: -21px; }
+	.w_Bla:after, .w_Cla:after, .w_Dla:after { right: -20px; }
+	.w_Blb:before, .w_Bla:after { display: block; }
 	
 }
 
@@ -71,7 +73,8 @@
 	 * Vertical lines between `px` columns.
 	 */
 	
-	.w_Cl:before, .w_Cl:after { display: block; }
+	.w_Blb:before, .w_Bla:after { display: none; }
+	.w_Clb:before, .w_Cla:after { display: block; }
 	
 }
 
@@ -105,6 +108,7 @@
 	 * Vertical lines between `px` columns.
 	 */
 	
-	.w_Dl:before, .w_Dl:after { display: block; }
+	.w_Clb:before, .w_Cla:after { display: none; }
+	.w_Dlb:before, .w_Dla:after { display: block; }
 	
 }
