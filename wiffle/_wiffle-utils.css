@@ -2,6 +2,23 @@
    _wiffle-utils.css
    ========================================================================== */
 
+/**
+ * Borders.
+ * Designed for use on a "wrapping" `div` inside `px` or `%` columns.
+ */
+
+.w_Ansew, .w_Bnsew, .w_Cnsew, .w_Dnsew, .w_Ans, .w_Bns, .w_Cns, .w_Dns, .w_Aew, .w_Bew, .w_Cew, .w_Dew, .w_An, .w_Bn, .w_Cn, .w_Dn, .w_As, .w_Bs, .w_Cs, .w_Ds, .w_Ae, .w_Be, .w_Ce, .w_De, .w_Aw, .w_Bw, .w_Cw, .w_Dw { border-width: 0; border-style: solid; border-color: #ccc; }
+.w_Ansew { border-width: 1px; } .w_Ans { border-top-width: 1px; border-bottom-width: 1px; } .w_Aew { border-right-width: 1px; border-left-width: 1px; } .w_An { border-top-width: 1px; } .w_As { border-bottom-width: 1px; } .w_Ae { border-right-width: 1px; } .w_Aw { border-left-width: 1px; }
+
+/*----------------------------------*/
+
+/**
+ * Show/hide from both screen readers and browsers.
+ */
+
+.w_Bon, .w_Con, .w_Don, .w_Aoff { display: none !important; visibility: hidden; }
+.w_Aon, .w_Boff, .w_Coff, .w_Doff { display: block !important; visibility: visible; }
+
 @media only screen and (min-width: 665px) {
 	
 	/*-----------------( [ B ]RAVO )-----------------*/
@@ -41,6 +58,24 @@
 	.w_Bla:after, .w_Cla:after, .w_Dla:after { right: -20px; }
 	.w_Blb:before, .w_Bla:after { display: block; }
 	
+	/*----------------------------------*/
+	
+	/**
+	 * Borders.
+	 */
+	
+	.w_Ansew { border-width: 0; } .w_Ans { border-top-width: 0; border-bottom-width: 0; } .w_Aew { border-right-width: 0; border-left-width: 0; } .w_An { border-top-width: 0; } .w_As { border-bottom-width: 0; } .w_Ae { border-right-width: 0; } .w_Aw { border-left-width: 0; }
+	.w_Bnsew { border-width: 1px; } .w_Bns { border-top-width: 1px; border-bottom-width: 1px; } .w_Bew { border-right-width: 1px; border-left-width: 1px; } .w_Bn { border-top-width: 1px; } .w_Bs { border-bottom-width: 1px; } .w_Be { border-right-width: 1px; } .w_Bw { border-left-width: 1px; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Show/hide from both screen readers and browsers.
+	 */
+	
+	.w_Aon, .w_Boff { display: none !important; visibility: hidden; }
+	.w_Bon, .w_Aoff { display: block !important; visibility: visible; }
+	
 }
 
 @media only screen and (min-width: 1005px) {
@@ -76,6 +111,24 @@
 	.w_Blb:before, .w_Bla:after { display: none; }
 	.w_Clb:before, .w_Cla:after { display: block; }
 	
+	/*----------------------------------*/
+	
+	/**
+	 * Borders.
+	 */
+	
+	.w_Bnsew { border-width: 0; } .w_Bns { border-top-width: 0; border-bottom-width: 0; } .w_Bew { border-right-width: 0; border-left-width: 0; } .w_Bn { border-top-width: 0; } .w_Bs { border-bottom-width: 0; } .w_Be { border-right-width: 0; } .w_Bw { border-left-width: 0; }
+	.w_Cnsew { border-width: 1px; } .w_Cns { border-top-width: 1px; border-bottom-width: 1px; } .w_Cew { border-right-width: 1px; border-left-width: 1px; } .w_Cn { border-top-width: 1px; } .w_Cs { border-bottom-width: 1px; } .w_Ce { border-right-width: 1px; } .w_Cw { border-left-width: 1px; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Hide from both screen readers and browsers.
+	 */
+	
+	.w_Bon, .w_Coff { display: none !important; visibility: hidden; }
+	.w_Con, .w_Boff { display: block !important; visibility: visible; }
+	
 }
 
 @media only screen and (min-width: 1345px) {
@@ -110,5 +163,23 @@
 	
 	.w_Clb:before, .w_Cla:after { display: none; }
 	.w_Dlb:before, .w_Dla:after { display: block; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Borders.
+	 */
+	
+	.w_Cnsew { border-width: 0; } .w_Cns { border-top-width: 0; border-bottom-width: 0; } .w_Cew { border-right-width: 0; border-left-width: 0; } .w_Cn { border-top-width: 0; } .w_Cs { border-bottom-width: 0; } .w_Ce { border-right-width: 0; } .w_Cw { border-left-width: 0; }
+	.w_Dnsew { border-width: 1px; } .w_Dns { border-top-width: 1px; border-bottom-width: 1px; } .w_Dew { border-right-width: 1px; border-left-width: 1px; } .w_Dn { border-top-width: 1px; } .w_Ds { border-bottom-width: 1px; } .w_De { border-right-width: 1px; } .w_Dw { border-left-width: 1px; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Hide from both screen readers and browsers.
+	 */
+	
+	.w_Con, .w_Doff { display: none !important; visibility: hidden; }
+	.w_Don, .w_Coff { display: block !important; visibility: visible; }
 	
 }

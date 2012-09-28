@@ -7,6 +7,19 @@
 
 ---
 
+## v3.1.1
+#### September 27, 2012
+
+* Bumped version number to `v3.1.1`.
+* Added more utility classes:
+    * Borders at breakpoints.
+    * Show/hide at breakpoints.
+* Updated `CHANGELOG.md`.
+* Modified `demo.html` and `demo.css`.
+* Modified `README.md`.
+
+---
+
 ## v3.1.0
 #### September 17, 2012
 
