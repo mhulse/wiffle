@@ -7,6 +7,23 @@
 
 ---
 
+## v3.2.0
+#### October 3, 2012
+
+* Bumped version number to `v3.2.0`.
+* Removed version number from CSS file name.
+* Added header comment to `wiffle.css`.
+* Updated `TODO.md` file.
+* Updated `CHANGELOG.md` (this file).
+* Changed `demo` folder to `demos`.
+* Added `on-off.html` which demos the `on` and `off` classes.
+* Minor tweak to comments in `_wiffle-core.css` (added a numbering system to breakpoints).
+* Trimmed down `_wiffle-utils.css` to include only CSS relevant to grid making.
+* Added `_wiffle-extras.css` which contains optional CSS.
+    * Fixed bug with `on`/`off` classes.
+
+---
+
 ## v3.1.1
 #### September 27, 2012
 
