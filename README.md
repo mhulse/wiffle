@@ -10,9 +10,9 @@
 
 ---
 
-Scan with phone and/or click to view the [latest demo](http://registerguard.github.com/wiffle/demo/):
+Scan with phone and/or click to view the [latest grid demo](http://registerguard.github.com/wiffle/demos/):
 
-[![qr code](http://chart.apis.google.com/chart?cht=qr&chl=http://registerguard.github.com/wiffle&chs=240x240)](http://registerguard.github.com/wiffle/demo/)
+[![qr code](http://chart.apis.google.com/chart?cht=qr&chl=http://registerguard.github.com/wiffle&chs=240x240)](http://registerguard.github.com/wiffle/demos/)
 
 ---
 
