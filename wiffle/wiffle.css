@@ -588,7 +588,7 @@
 	/*----------------------------------*/
 	
 	/**
-	 * `px` cols, right.
+	 * `px` columns, right.
 	 * Compatible with IE > 6.
 	 */
 	
@@ -615,7 +615,7 @@
 	/*----------------------------------*/
 	
 	/**
-	 * `px` cols, right.
+	 * `px` columns, right.
 	 */
 	
 	.w_row.w_Cr > .w_col { float: right; }
@@ -641,7 +641,7 @@
 	/*----------------------------------*/
 	
 	/**
-	 * `px` cols, right.
+	 * `px` columns, right.
 	 */
 	
 	.w_row.w_Dr > .w_col { float: right; }
