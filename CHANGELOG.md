@@ -8,6 +8,12 @@
 ---
 
 ## v3.2.0
+#### October 14, 2012
+
+* Added `_wiffle-pxct.css`.
+	* It's a liquid column setup.
+* Tweaked some comments and did some minor house cleaning.
+
 #### October 3, 2012
 
 * Bumped version number to `v3.2.0`.

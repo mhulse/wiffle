@@ -5,19 +5,19 @@
 /*-----------------( [ A ]LPHA )-----------------*/
 
 /**
- * `%` grid base structure.
+ * `%` base structure.
  *
  * @see rgne.ws/JNpYSM
  */
 
 .w_line:before, .w_line:after { content: ""; display: table; } .w_line:after { clear: both; } .w_line { *zoom: 1; } /* rgne.ws/KZHkqq */
-	.w_unit { float: left; display: inline; width: 100%; position: relative; }
+	.w_unit { width: 100%; float: left; display: inline; position: relative; }
 		.debug .w_unit { background: rgba(0, 0, 255, .25); } /* blue, #00f */
 
 /*----------------------------------*/
 
 /**
- * `%` classes.
+ * `%` columns.
  */
 
 .w_A1of2 { width: 50%; }
@@ -27,8 +27,8 @@
 .w_A3of4 { width: 75%; }
 .w_A1of5 { width: 20%; }
 .w_A2of5 { width: 40%; }
-.w_A3of5 { width:60%; }
-.w_A4of5 { width:80%; }
+.w_A3of5 { width: 60%; }
+.w_A4of5 { width: 80%; }
 .w_A1of6 { width: 16.6666666%; }
 .w_A5of6 { width: 83.3333333%; }
 .w_A1of7 { width: 14.2857143%; }
@@ -62,14 +62,14 @@
 	.debug .w_A3of8 { background: rgba(218, 165, 32, .25); }  /* goldenrod, #daa520 */
 	.debug .w_A5of8 { background: rgba(210, 180, 140, .25); } /* tan, #d2b48c */
 	.debug .w_A7of8 { background: rgba(255, 127, 80, .25); }  /* coral, #ff7f50 */
-.w_Afix { width: auto; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; _margin-right: -3px; }
+.w_Afix { width: auto; _margin-right: -3px; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; }
 
 @media only screen and (min-width: 665px) {
 	
 	/*-----------------( [ B ]RAVO )-----------------*/
 	
 	/**
-	 * `%` classes.
+	 * `%` columns.
 	 */
 	
 	.w_B1of2 { width: 50%; }
@@ -79,8 +79,8 @@
 	.w_B3of4 { width: 75%; }
 	.w_B1of5 { width: 20%; }
 	.w_B2of5 { width: 40%; }
-	.w_B3of5 { width:60%; }
-	.w_B4of5 { width:80%; }
+	.w_B3of5 { width: 60%; }
+	.w_B4of5 { width: 80%; }
 	.w_B1of6 { width: 16.6666666%; }
 	.w_B5of6 { width: 83.3333333%; }
 	.w_B1of7 { width: 14.2857143%; }
@@ -114,7 +114,7 @@
 		.debug .w_B3of8 { background: rgba(218, 165, 32, .25); }  /* goldenrod, #daa520 */
 		.debug .w_B5of8 { background: rgba(210, 180, 140, .25); } /* tan, #d2b48c */
 		.debug .w_B7of8 { background: rgba(255, 127, 80, .25); }  /* coral, #ff7f50 */
-	.w_Bfix { width: auto; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; _margin-right: -3px; }
+	.w_Bfix { width: auto; _margin-right: -3px; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; }
 	
 }
 
@@ -123,7 +123,7 @@
 	/*-----------------( [ C ]HARLIE )-----------------*/
 	
 	/**
-	 * `%` classes.
+	 * `%` columns.
 	 */
 	
 	.w_C1of2 { width: 50%; }
@@ -133,8 +133,8 @@
 	.w_C3of4 { width: 75%; }
 	.w_C1of5 { width: 20%; }
 	.w_C2of5 { width: 40%; }
-	.w_C3of5 { width:60%; }
-	.w_C4of5 { width:80%; }
+	.w_C3of5 { width: 60%; }
+	.w_C4of5 { width: 80%; }
 	.w_C1of6 { width: 16.6666666%; }
 	.w_C5of6 { width: 83.3333333%; }
 	.w_C1of7 { width: 14.2857143%; }
@@ -168,7 +168,7 @@
 		.debug .w_C3of8 { background: rgba(218, 165, 32, .25); }  /* goldenrod, #daa520 */
 		.debug .w_C5of8 { background: rgba(210, 180, 140, .25); } /* tan, #d2b48c */
 		.debug .w_C7of8 { background: rgba(255, 127, 80, .25); }  /* coral, #ff7f50 */
-	.w_Cfix { width: auto; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; _margin-right: -3px; }
+	.w_Cfix { width: auto; _margin-right: -3px; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; }
 	
 }
 
@@ -177,7 +177,7 @@
 	/*-----------------( [ D ]ELTA )-----------------*/
 	
 	/**
-	 * `%` classes.
+	 * `%` columns.
 	 */
 	
 	.w_D1of2 { width: 50%; }
@@ -187,8 +187,8 @@
 	.w_D3of4 { width: 75%; }
 	.w_D1of5 { width: 20%; }
 	.w_D2of5 { width: 40%; }
-	.w_D3of5 { width:60%; }
-	.w_D4of5 { width:80%; }
+	.w_D3of5 { width: 60%; }
+	.w_D4of5 { width: 80%; }
 	.w_D1of6 { width: 16.6666666%; }
 	.w_D5of6 { width: 83.3333333%; }
 	.w_D1of7 { width: 14.2857143%; }
@@ -222,6 +222,6 @@
 		.debug .w_D3of8 { background: rgba(218, 165, 32, .25); }  /* goldenrod, #daa520 */
 		.debug .w_D5of8 { background: rgba(210, 180, 140, .25); } /* tan, #d2b48c */
 		.debug .w_D7of8 { background: rgba(255, 127, 80, .25); }  /* coral, #ff7f50 */
-	.w_Dfix { width: auto; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; _margin-right: -3px; }
+	.w_Dfix { width: auto; _margin-right: -3px; float: none; display: block; overflow: hidden; *overflow: visible; *zoom: 1; _left: -3px; }
 	
 }

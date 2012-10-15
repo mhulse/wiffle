@@ -1,3 +1,6 @@
+* Add more info to WIKI.
+* Re-test all browsers.
+* Add `pxct` to demo page.
 * Add demo page for borders.
 * ~~System for horizontal lines between rows?~~
     * Currently, my plan is to make use of `<hr>`s and the `on`/`off` classes. 

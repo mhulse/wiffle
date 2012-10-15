@@ -5,13 +5,13 @@
 /*-----------------( [ A ]LPHA )-----------------*/
 
 /**
- * Left `px` grid base structure.
+ * `px` base structure.
  *
  * @see rgne.ws/MopmlH
  */
 
 .w_row:before, .w_row:after { content: ""; display: table; } .w_row:after { clear: both; } .w_row { *zoom: 1; } /* rgne.ws/KZHkqq */
-	.w_col { padding: 1px 0; margin: -1px 0; position: relative; } /* rgne.ws/JAoGck */
+	.w_col { margin: -1px 0; padding: 1px 0; position: relative; } /* rgne.ws/JAoGck */
 		.debug .w_col { background: rgba(0, 0, 255, .25); } /* blue, #00f */
 
 @media only screen and (min-width: 665px) {
@@ -19,7 +19,7 @@
 	/*-----------------( [ B ]RAVO )-----------------*/
 	
 	/**
-	 * Left `px` rows/cols.
+	 * `px` rows/columns.
 	 *
 	 * @see rgne.ws/KdetDk
 	 */
@@ -30,7 +30,7 @@
 	/*----------------------------------*/
 	
 	/**
-	 * Left `px` classes.
+	 * `px` columns.
 	 *
 	 * @see rgne.ws/KdetDk
 	 */
@@ -50,7 +50,7 @@
 	/*-----------------( [ C ]HARLIE )-----------------*/
 	
 	/**
-	 * Left `px` classes.
+	 * `px` columns.
 	 */
 	
 	.w_C130 { width: 130px; }
@@ -72,7 +72,7 @@
 	/*-----------------( [ D ]ELTA )-----------------*/
 	
 	/**
-	 * Left `px` classes.
+	 * `px` columns.
 	 */
 	
 	.w_D130 { width: 130px; }
