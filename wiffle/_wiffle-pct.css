@@ -11,7 +11,7 @@
  */
 
 .w_line:before, .w_line:after { content: ""; display: table; } .w_line:after { clear: both; } .w_line { *zoom: 1; } /* rgne.ws/KZHkqq */
-	.w_unit { width: 100%; float: left; display: inline; position: relative; }
+	.w_unit { width: 100%; float: left; display: inline; position: relative; } /* rgne.ws/SX31y1 */
 		.debug .w_unit { background: rgba(0, 0, 255, .25); } /* blue, #00f */
 
 /*----------------------------------*/

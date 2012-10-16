@@ -5,6 +5,18 @@
 /*-----------------( [ A ]LPHA )-----------------*/
 
 /**
+ * Vertical lines between `px` and `px`/`%` columns.
+ * Compatible with IE > 7.
+ *
+ * @see rgne.ws/M85ynR
+ */
+
+.w_Alb:before, .w_Blb:before, .w_Clb:before, .w_Dlb:before, .w_Ala:after, .w_Bla:after, .w_Cla:after, .w_Dla:after { border-right: 1px solid #ccc; content: ""; display: none; position: absolute; top: 0; bottom: 0; }
+.w_Alb:before, .w_Blb:before, .w_Clb:before, .w_Dlb:before { left: -21px; }
+.w_Ala:after, .w_Bla:after, .w_Cla:after, .w_Dla:after { right: -20px; }
+.w_Alb:before, .w_Ala:after { display: block; }
+
+/**
  * Borders.
  * Designed for use on a "wrapping" `div` inside `px` or `%` columns.
  */
@@ -35,15 +47,10 @@
 	/*-----------------( [ B ]RAVO )-----------------*/
 	
 	/**
-	 * Vertical lines between `px` columns.
-	 * Compatible with IE > 7.
-	 *
-	 * @see rgne.ws/M85ynR
+	 * Vertical lines between `px` and `px`/`%` columns.
 	 */
 	
-	.w_Blb:before, .w_Clb:before, .w_Dlb:before, .w_Bla:after, .w_Cla:after, .w_Dla:after { border-right: 1px solid #ccc; content: ""; display: none; position: absolute; top: 0; bottom: 0; }
-	.w_Blb:before, .w_Clb:before, .w_Dlb:before { left: -21px; }
-	.w_Bla:after, .w_Cla:after, .w_Dla:after { right: -20px; }
+	.w_Alb:before, .w_Ala:after { display: none; }
 	.w_Blb:before, .w_Bla:after { display: block; }
 	
 	/*----------------------------------*/
@@ -78,7 +85,7 @@
 	/*-----------------( [ C ]HARLIE )-----------------*/
 	
 	/**
-	 * Vertical lines between `px` columns.
+	 * Vertical lines between `px` and `px`/`%` columns.
 	 */
 	
 	.w_Blb:before, .w_Bla:after { display: none; }
@@ -116,7 +123,7 @@
 	/*-----------------( [ D ]ELTA )-----------------*/
 	
 	/**
-	 * Vertical lines between `px` columns.
+	 * Vertical lines between `px` and `px`/`%` columns.
 	 */
 	
 	.w_Clb:before, .w_Cla:after { display: none; }
