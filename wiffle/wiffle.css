@@ -423,28 +423,20 @@
 }
 
 /* ==========================================================================
-   _wiffle-pxct.css
+   _wiffle-h2o.css
    ========================================================================== */
 
 /*-----------------( [ A ]LPHA )-----------------*/
 
 /**
- * `px`/`%` base structure.
+ * `h2o` base structure.
  *
  * @see rgne.ws/RK3zVl
  */
 
-.w_boxes:before, .w_boxes:after { content: ""; display: table; } .w_boxes:after { clear: both; } .w_boxes { *zoom: 1; } /* rgne.ws/KZHkqq */
-	.w_box { width: 100%; float: left; display: inline; position: relative; } /* rgne.ws/SX31y1 */
-		.debug .w_box { background: rgba(0, 0, 255, .25); } /* blue, #00f */
-
-/**
- * `%` columns.
- */
-
-.w_A130ml { margin-left: 170px; } .w_A130mr { margin-right: 170px; } /* 130px + 40px */
-	.debug .w_A130ml, .debug .w_A130mr { background: rgba(128, 0, 128, .25); } /* purple, #800080 */
-.w_A130ml, .w_A130mr { width: auto; _height: 1%; margin-top: -1px; _margin-right: 0; margin-bottom: -1px; _margin-left: 0; padding: 1px 0; float: none; display: block; } /* rgne.ws/JAoGck */
+.w_h:before, .w_h:after { content: ""; display: table; } .w_h:after { clear: both; } .w_h { *zoom: 1; } /* rgne.ws/KZHkqq */
+	.w_o { width: 100%; float: left; display: inline; position: relative; } /* rgne.ws/SX31y1 */
+		.debug .w_o { background: rgba(0, 0, 255, .25); } /* blue, #00f */
 
 /**
  * `px` columns.
@@ -454,21 +446,17 @@
 	.debug .w_A130fl, .debug .w_A130fr { background: rgba(0, 0, 128, .25); } /* navy, #000080 */
 .w_A130fl { _margin-right: 37px; } .w_A130fr { _margin-left: 37px; float: right; }
 
+/**
+ * Remainder columns.
+ */
+
+.w_A130ml { margin-left: 170px; } .w_A130mr { margin-right: 170px; } /* 130px + 40px */
+	.debug .w_A130ml, .debug .w_A130mr { background: rgba(128, 0, 128, .25); } /* purple, #800080 */
+.w_A130ml, .w_A130mr { width: auto; _height: 1%; margin-top: -1px; _margin-right: 0; margin-bottom: -1px; _margin-left: 0; padding: 1px 0; float: none; display: block; } /* rgne.ws/JAoGck */
+
 @media only screen and (min-width: 665px) {
 	
 	/*-----------------( [ B ]RAVO )-----------------*/
-	
-	/**
-	 * `%` columns.
-	 */
-	
-	.w_B130ml { margin-left: 170px; } .w_B130mr { margin-right: 170px; } /* 130px + 40px */
-	.w_B300ml { margin-left: 340px; } .w_B300mr { margin-right: 340px; } /* 300px + 40px */
-	.w_B470ml { margin-left: 510px; } .w_B470mr { margin-right: 510px; } /* 470px + 40px */
-		.debug .w_B130ml, .debug .w_B130mr { background: rgba(0, 128, 128, .25); }   /* teal, #008080 */
-		.debug .w_B300ml, .debug .w_B300mr { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
-		.debug .w_B470ml, .debug .w_B470mr { background: rgba(0, 128, 0, .25); }     /* green, #008000 */
-	.w_B130ml, .w_B130mr, .w_B300ml, .w_B300mr, .w_B470ml, .w_B470mr { width: auto; _height: 1%; margin-top: -1px; _margin-right: 0; margin-bottom: -1px; _margin-left: 0; padding: 1px 0; float: none; display: block; }
 	
 	/**
 	 * `px` columns.
@@ -483,27 +471,23 @@
 	.w_B130fl, .w_B300fl, .w_B470fl { _margin-right: 37px; }
 	.w_B130fr, .w_B300fr, .w_B470fr { _margin-left: 37px; float: right; }
 	
+	/**
+	 * Remainder columns.
+	 */
+	
+	.w_B130ml { margin-left: 170px; } .w_B130mr { margin-right: 170px; } /* 130px + 40px */
+	.w_B300ml { margin-left: 340px; } .w_B300mr { margin-right: 340px; } /* 300px + 40px */
+	.w_B470ml { margin-left: 510px; } .w_B470mr { margin-right: 510px; } /* 470px + 40px */
+		.debug .w_B130ml, .debug .w_B130mr { background: rgba(0, 128, 128, .25); }   /* teal, #008080 */
+		.debug .w_B300ml, .debug .w_B300mr { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
+		.debug .w_B470ml, .debug .w_B470mr { background: rgba(0, 128, 0, .25); }     /* green, #008000 */
+	.w_B130ml, .w_B130mr, .w_B300ml, .w_B300mr, .w_B470ml, .w_B470mr { width: auto; _height: 1%; margin-top: -1px; _margin-right: 0; margin-bottom: -1px; _margin-left: 0; padding: 1px 0; float: none; display: block; }
+	
 }
 
 @media only screen and (min-width: 1005px) {
 	
 	/*-----------------( [ C ]HARLIE )-----------------*/
-	
-	/**
-	 * `%` columns.
-	 */
-	
-	.w_C130ml { margin-left: 170px } .w_C130mr { margin-right: 170px; } /* 130px + 40px */
-	.w_C300ml { margin-left: 340px } .w_C300mr { margin-right: 340px; } /* 300px + 40px */
-	.w_C470ml { margin-left: 510px } .w_C470mr { margin-right: 510px; } /* 470px + 40px */
-	.w_C640ml { margin-left: 680px } .w_C640mr { margin-right: 680px; } /* 640px + 40px */
-	.w_C810ml { margin-left: 850px } .w_C810mr { margin-right: 850px; } /* 810px + 40px */
-		.debug .w_C130ml, .debug .w_C130mr { background: rgba(128, 128, 128, .25); } /* gray, #808080 */
-		.debug .w_C300ml, .debug .w_C300mr { background: rgba(128, 128, 0, .25); }   /* olive, #808000 */
-		.debug .w_C470ml, .debug .w_C470mr { background: rgba(255, 255, 0, .25); }   /* yellow, #ff0 */
-		.debug .w_C640ml, .debug .w_C640mr { background: rgba(255, 0, 0, .25); }     /* red, #f00 */
-		.debug .w_C810ml, .debug .w_C810mr { background: rgba(255, 0, 255, .25); }   /* fuchsia, #f0f */
-	.w_C130ml, .w_C130mr, .w_C300ml, .w_C300mr, .w_C470ml, .w_C470mr, .w_C640ml, .w_C640mr, .w_C810ml, .w_C810mr { width: auto; _height: 1%; margin-top: -1px; _margin-right: 0; margin-bottom: -1px; _margin-left: 0; padding: 1px 0; float: none; display: block; }
 	
 	/**
 	 * `px` columns.
@@ -522,31 +506,27 @@
 	.w_C130fl, .w_C300fl, .w_C470fl, .w_C640fl, .w_C810fl { _margin-right: 37px; }
 	.w_C130fr, .w_C300fr, .w_C470fr, .w_C640fr, .w_C810fr { _margin-left: 37px; float: right; }
 	
+	/**
+	 * Remainder columns.
+	 */
+	
+	.w_C130ml { margin-left: 170px } .w_C130mr { margin-right: 170px; } /* 130px + 40px */
+	.w_C300ml { margin-left: 340px } .w_C300mr { margin-right: 340px; } /* 300px + 40px */
+	.w_C470ml { margin-left: 510px } .w_C470mr { margin-right: 510px; } /* 470px + 40px */
+	.w_C640ml { margin-left: 680px } .w_C640mr { margin-right: 680px; } /* 640px + 40px */
+	.w_C810ml { margin-left: 850px } .w_C810mr { margin-right: 850px; } /* 810px + 40px */
+		.debug .w_C130ml, .debug .w_C130mr { background: rgba(128, 128, 128, .25); } /* gray, #808080 */
+		.debug .w_C300ml, .debug .w_C300mr { background: rgba(128, 128, 0, .25); }   /* olive, #808000 */
+		.debug .w_C470ml, .debug .w_C470mr { background: rgba(255, 255, 0, .25); }   /* yellow, #ff0 */
+		.debug .w_C640ml, .debug .w_C640mr { background: rgba(255, 0, 0, .25); }     /* red, #f00 */
+		.debug .w_C810ml, .debug .w_C810mr { background: rgba(255, 0, 255, .25); }   /* fuchsia, #f0f */
+	.w_C130ml, .w_C130mr, .w_C300ml, .w_C300mr, .w_C470ml, .w_C470mr, .w_C640ml, .w_C640mr, .w_C810ml, .w_C810mr { width: auto; _height: 1%; margin-top: -1px; _margin-right: 0; margin-bottom: -1px; _margin-left: 0; padding: 1px 0; float: none; display: block; }
+	
 }
 
 @media only screen and (min-width: 1345px) {
 	
 	/*-----------------( [ D ]ELTA )-----------------*/
-	
-	/**
-	 * `%` columns.
-	 */
-	
-	.w_D130ml { margin-left: 170px } .w_D130mr { margin-right: 170px; }     /* 130px + 40px */
-	.w_D300ml { margin-left: 340px } .w_D300mr { margin-right: 340px; }     /* 300px + 40px */
-	.w_D470ml { margin-left: 510px } .w_D470mr { margin-right: 510px; }     /* 470px + 40px */
-	.w_D640ml { margin-left: 680px } .w_D640mr { margin-right: 680px; }     /* 640px + 40px */
-	.w_D810ml { margin-left: 850px } .w_D810mr { margin-right: 850px; }     /* 810px + 40px */
-	.w_D980ml { margin-left: 1020px } .w_D980mr { margin-right: 1020px; }   /* 980px + 40px */
-	.w_D1150ml { margin-left: 1190px } .w_D1150mr { margin-right: 1190px; } /* 1150px + 40px */
-		.debug .w_D130ml, .debug .w_D130mr { background: rgba(128, 128, 0, .25); }     /* olive, #808000 */
-		.debug .w_D300ml, .debug .w_D300mr { background: rgba(128, 128, 128, .25); }   /* gray, #808080 */
-		.debug .w_D470ml, .debug .w_D470mr { background: rgba(255, 0, 255, .25); }     /* fuchsia, #f0f */
-		.debug .w_D640ml, .debug .w_D640mr { background: rgba(255, 255, 255, .25); }   /* white, #fff */
-		.debug .w_D810ml, .debug .w_D810mr { background: rgba(0, 255, 0, .25); }       /* lime, #0f0 */
-		.debug .w_D980ml, .debug .w_D980mr { background: rgba(0, 128, 0, .25); }       /* green, #008000 */
-		.debug .w_D1150ml, .debug .w_D1150mr { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
-	.w_D130ml, .w_D130mr, .w_D300ml, .w_D300mr, .w_D470ml, .w_D470mr, .w_D640ml, .w_D640mr, .w_D810ml, .w_D810mr, .w_D980ml, .w_D980mr, .w_D1150ml, .w_D1150mr { width: auto; _height: 1%; margin-top: -1px; _margin-right: 0; margin-bottom: -1px; _margin-left: 0; padding: 1px 0; float: none; display: block; }
 	
 	/**
 	 * `px` columns.
@@ -568,6 +548,26 @@
 		.debug .w_D1150fl, .debug .w_D1150fr { background: rgba(216, 191, 216, .25); } /* thistle, #d8bfd8 */
 	.w_D130fl, .w_D300fl, .w_D470fl, .w_D640fl, .w_D810fl, .w_D980fl, .w_D1150fl { _margin-right: 37px; }
 	.w_D130fr, .w_D300fr, .w_D470fr, .w_D640fr, .w_D810fr, .w_D980fr, .w_D1150fr { _margin-left: 37px; float: right; }
+	
+	/**
+	 * Remainder columns.
+	 */
+	
+	.w_D130ml { margin-left: 170px } .w_D130mr { margin-right: 170px; }     /* 130px + 40px */
+	.w_D300ml { margin-left: 340px } .w_D300mr { margin-right: 340px; }     /* 300px + 40px */
+	.w_D470ml { margin-left: 510px } .w_D470mr { margin-right: 510px; }     /* 470px + 40px */
+	.w_D640ml { margin-left: 680px } .w_D640mr { margin-right: 680px; }     /* 640px + 40px */
+	.w_D810ml { margin-left: 850px } .w_D810mr { margin-right: 850px; }     /* 810px + 40px */
+	.w_D980ml { margin-left: 1020px } .w_D980mr { margin-right: 1020px; }   /* 980px + 40px */
+	.w_D1150ml { margin-left: 1190px } .w_D1150mr { margin-right: 1190px; } /* 1150px + 40px */
+		.debug .w_D130ml, .debug .w_D130mr { background: rgba(128, 128, 0, .25); }     /* olive, #808000 */
+		.debug .w_D300ml, .debug .w_D300mr { background: rgba(128, 128, 128, .25); }   /* gray, #808080 */
+		.debug .w_D470ml, .debug .w_D470mr { background: rgba(255, 0, 255, .25); }     /* fuchsia, #f0f */
+		.debug .w_D640ml, .debug .w_D640mr { background: rgba(255, 255, 255, .25); }   /* white, #fff */
+		.debug .w_D810ml, .debug .w_D810mr { background: rgba(0, 255, 0, .25); }       /* lime, #0f0 */
+		.debug .w_D980ml, .debug .w_D980mr { background: rgba(0, 128, 0, .25); }       /* green, #008000 */
+		.debug .w_D1150ml, .debug .w_D1150mr { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
+	.w_D130ml, .w_D130mr, .w_D300ml, .w_D300mr, .w_D470ml, .w_D470mr, .w_D640ml, .w_D640mr, .w_D810ml, .w_D810mr, .w_D980ml, .w_D980mr, .w_D1150ml, .w_D1150mr { width: auto; _height: 1%; margin-top: -1px; _margin-right: 0; margin-bottom: -1px; _margin-left: 0; padding: 1px 0; float: none; display: block; }
 	
 }
 
