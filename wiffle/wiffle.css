@@ -447,7 +447,7 @@
 .w_A130fl { _margin-right: 37px; } .w_A130fr { _margin-left: 37px; float: right; }
 
 /**
- * Remainder columns.
+ * Column `remainder`.
  */
 
 .w_A130ml { margin-left: 170px; } .w_A130mr { margin-right: 170px; } /* 130px + 40px */
@@ -472,7 +472,7 @@
 	.w_B130fr, .w_B300fr, .w_B470fr { _margin-left: 37px; float: right; }
 	
 	/**
-	 * Remainder columns.
+	 * Column `remainder`.
 	 */
 	
 	.w_B130ml { margin-left: 170px; } .w_B130mr { margin-right: 170px; } /* 130px + 40px */
@@ -507,7 +507,7 @@
 	.w_C130fr, .w_C300fr, .w_C470fr, .w_C640fr, .w_C810fr { _margin-left: 37px; float: right; }
 	
 	/**
-	 * Remainder columns.
+	 * Column `remainder`.
 	 */
 	
 	.w_C130ml { margin-left: 170px } .w_C130mr { margin-right: 170px; } /* 130px + 40px */
@@ -550,7 +550,7 @@
 	.w_D130fr, .w_D300fr, .w_D470fr, .w_D640fr, .w_D810fr, .w_D980fr, .w_D1150fr { _margin-left: 37px; float: right; }
 	
 	/**
-	 * Remainder columns.
+	 * Column `remainder`.
 	 */
 	
 	.w_D130ml { margin-left: 170px } .w_D130mr { margin-right: 170px; }     /* 130px + 40px */
