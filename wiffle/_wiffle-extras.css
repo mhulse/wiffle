@@ -5,7 +5,7 @@
 /*-----------------( [ A ]LPHA )-----------------*/
 
 /**
- * Vertical lines between `px` and `px`/`%` columns.
+ * Vertical lines between `px` and `h2o` columns.
  * Compatible with IE > 7.
  *
  * @see rgne.ws/M85ynR
@@ -18,7 +18,7 @@
 
 /**
  * Borders.
- * Designed for use on a "wrapping" `div` inside `px` or `%` columns.
+ * Designed for use on a "wrapping" `div` inside columns.
  */
 
 .w_Ansew, .w_Bnsew, .w_Cnsew, .w_Dnsew, .w_Ans, .w_Bns, .w_Cns, .w_Dns, .w_Aew, .w_Bew, .w_Cew, .w_Dew, .w_An, .w_Bn, .w_Cn, .w_Dn, .w_As, .w_Bs, .w_Cs, .w_Ds, .w_Ae, .w_Be, .w_Ce, .w_De, .w_Aw, .w_Bw, .w_Cw, .w_Dw { border-width: 0; border-style: solid; border-color: #ccc; }
@@ -47,7 +47,7 @@
 	/*-----------------( [ B ]RAVO )-----------------*/
 	
 	/**
-	 * Vertical lines between `px` and `px`/`%` columns.
+	 * Vertical lines between `px` and `h2o` columns.
 	 */
 	
 	.w_Alb:before, .w_Ala:after { display: none; }
@@ -85,7 +85,7 @@
 	/*-----------------( [ C ]HARLIE )-----------------*/
 	
 	/**
-	 * Vertical lines between `px` and `px`/`%` columns.
+	 * Vertical lines between `px` and `h2o` columns.
 	 */
 	
 	.w_Blb:before, .w_Bla:after { display: none; }
@@ -123,7 +123,7 @@
 	/*-----------------( [ D ]ELTA )-----------------*/
 	
 	/**
-	 * Vertical lines between `px` and `px`/`%` columns.
+	 * Vertical lines between `px` and `h2o` columns.
 	 */
 	
 	.w_Clb:before, .w_Cla:after { display: none; }
