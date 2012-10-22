@@ -1,3 +1,5 @@
+* For the `h2o` grid, it'd be nice to make that have a "content first" setup.
+	* See [this](http://www.flexiblewebbook.com/files.html) and [this](http://www.sitepoint.com/forums/showthread.php?663206-dissecting-pmob-example-2col-fluid-content-first).
 * Add more info to WIKI.
 * Re-test all browsers.
 * Add `pxct` to demo page.
