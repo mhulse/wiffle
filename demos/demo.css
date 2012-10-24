@@ -61,7 +61,7 @@ h4 { margin: 10px; }
 
 p { text-align: center; font-weight: bold; font-size: 62.5%; }
 
-.wrap { padding: 1px 10px; margin: -1px 0; } /* Padding + prevent margin collapse. */
+.wrap { padding: 1px 10px; margin: -1px 0; _margin: 0; } /* Padding + prevent margin collapse. */
 
 hr {
 	display: block;

@@ -6,7 +6,10 @@
 
 /**
  * Vertical lines between `px` and `h2o` columns.
- * Compatible with IE > 7.
+ * Compatible with IE >= 9.
+ *
+ * IE 7 is having issues showing/hidding pseudo elements.
+ * Using hack to target everything but IE 6-8.
  *
  * @see rgne.ws/M85ynR
  */
@@ -14,7 +17,7 @@
 .w_Alb:before, .w_Blb:before, .w_Clb:before, .w_Dlb:before, .w_Ala:after, .w_Bla:after, .w_Cla:after, .w_Dla:after { border-right: 1px solid #ccc; content: ""; display: none; position: absolute; top: 0; bottom: 0; }
 .w_Alb:before, .w_Blb:before, .w_Clb:before, .w_Dlb:before { left: -21px; }
 .w_Ala:after, .w_Bla:after, .w_Cla:after, .w_Dla:after { right: -20px; }
-.w_Alb:before, .w_Ala:after { display: block; }
+:root *> .w_Alb:before, :root *> .w_Ala:after { display: block; } /* rgne.ws/TxmM1l */
 
 /**
  * Borders.
@@ -51,7 +54,7 @@
 	 */
 	
 	.w_Alb:before, .w_Ala:after { display: none; }
-	.w_Blb:before, .w_Bla:after { display: block; }
+	:root *> .w_Blb:before, :root *> .w_Bla:after { display: block; }
 	
 	/*----------------------------------*/
 	
@@ -89,7 +92,7 @@
 	 */
 	
 	.w_Blb:before, .w_Bla:after { display: none; }
-	.w_Clb:before, .w_Cla:after { display: block; }
+	:root *> .w_Clb:before, :root *> .w_Cla:after { display: block; }
 	
 	/*----------------------------------*/
 	
@@ -127,7 +130,7 @@
 	 */
 	
 	.w_Clb:before, .w_Cla:after { display: none; }
-	.w_Dlb:before, .w_Dla:after { display: block; }
+	:root *> .w_Dlb:before, :root *> .w_Dla:after { display: block; }
 	
 	/*----------------------------------*/
 	

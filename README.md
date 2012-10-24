@@ -8,9 +8,8 @@
 
 #### Some key features:
 
-* Compatible with IE 6 and above (media query pollyfill required).
-* Conforms to Standard Advertising Units.
-* Rapid prototyping.
+* Compatible with IE 6 and above ([media query pollyfill](https://github.com/scottjehl/Respond) required).
+* Conforms to [Standard Advertising Units](http://www.iab.net/guidelines/508676/508767/displayguidelines).
 * Built with newspaper websites in mind.
 
 ---

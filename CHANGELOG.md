@@ -8,13 +8,7 @@
 ---
 
 ## v3.2.0
-#### October 14, 2012
-
-* Added `_wiffle-pxct.css`.
-	* It's a liquid column setup.
-* Tweaked some comments and did some minor house cleaning.
-
-#### October 3, 2012
+#### October 23, 2012
 
 * Bumped version number to `v3.2.0`.
 * Removed version number from CSS file name.
@@ -27,6 +21,37 @@
 * Trimmed down `_wiffle-utils.css` to include only CSS relevant to grid making.
 * Added `_wiffle-extras.css` which contains optional CSS.
     * Fixed bug with `on`/`off` classes.
+* Added `_wiffle-h2o.css`.
+	* It's a liquid/fluid/hybrid column setup.	
+* Tweaked some comments and did other minor house cleaning.
+* Modified `README.md`.
+* New (closes [issue #6](https://github.com/registerguard/wiffle/issues/6)):
+	* Added `LICENSE` ([Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)).
+		* I'm still uncertain weather this is the right license to have here.
+	* Added `COPYRIGHT` file.
+* Moved browser tests from WIKI and into `CHANGELOG.md`.
+
+##### Browser tests:
+
+* MAC Snow Leopard:
+	* Firefox `16.0.1`, Safari `6.0.1 (8536.26.14)`, Opera `12.02 (1578)`, Chrome `22.0.1229.94`
+* PC Vista:
+	* Firefox `15.0.1`, Firefox `16.0.1`, Chrome `22.0.1229.94 m`, Safari `5.1.7 (7534.57.2)`, Opera `12.02 (1578)`
+	* IE `9.0.8112.16421`, IE `8.0.6001.18702`, IE `7.0.6002.18005`
+* PC XP:
+    * Firefox `14.01`, IE `6.0.2900.5512.xpsp_sp3_gdr.120504-1619`
+* iPhone (Retina 4-inch), iOS `6.0`:
+	* Safari (simulated)
+* iPhone (Retina 3.5-inch), iOS `6.0`:
+	* Safari (simulated), Safari, Chrome `21.0.1180.82`, Opera Mini `7.0.4.44138`
+* iPhone, iOS `6.0`:
+	* Safari (simulated)
+* iPad (Retina), iOS `6.0`:
+	* Safari
+* iPad, iOS `6.0`:
+	* Safari (simulated)
+* iPad, iOS `5.1.1`:
+	* Safari
 
 ---
 
@@ -117,5 +142,21 @@
 #### July 13, 2012
 
 * Initial public release.
+
+##### Browser tests:
+
+* MAC Snow Leopard:
+	* Firefox `14.0.x`, Safari `5.1.x`, Opera `12.00`, Chrome `21.0.x`
+* PC Vista:
+	* Firefox `3.6.x`, Firefox `14.0.x`, Chrome `20.0.x`, Safari `5.1.x`, Opera `11.64`, Opera `12.00`
+	* IE `9.0.x`, IE `8.0.x`, IE `7.0.x`
+* PC XP:
+    * IE `6.0.x`
+* iPhone 4:
+	* Safari `4.3`, Safari `5.1.1`, Chrome `19.0.x`, Opera Mini `7.0.x`
+* iPhone:
+	* Safari `4.3` (simulated)
+* iPad:
+	* Safari `4.3` _(simulated)_, Safari `5.1.1`
 
 ---

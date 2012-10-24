@@ -10,9 +10,9 @@
  * @see rgne.ws/RK3zVl
  */
 
-.w_h:before, .w_h:after { content: ""; display: table; } .w_h:after { clear: both; } .w_h { *zoom: 1; } /* rgne.ws/KZHkqq */
-	.w_o { width: 100%; float: left; display: inline; position: relative; } /* rgne.ws/SX31y1 */
-		.debug .w_o { background: rgba(0, 0, 255, .25); } /* blue, #00f */
+.w_wrap:before, .w_wrap:after { content: ""; display: table; } .w_wrap:after { clear: both; } .w_wrap { *zoom: 1; } /* rgne.ws/KZHkqq */
+	.w_area { width: 100%; float: left; display: inline; position: relative; } /* rgne.ws/SX31y1 */
+		.debug .w_area { background: rgba(0, 0, 255, .25); } /* blue, #00f */
 
 /**
  * `px` columns.
