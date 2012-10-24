@@ -28,7 +28,6 @@
 * New (closes [issue #6](https://github.com/registerguard/wiffle/issues/6)):
 	* Added `LICENSE` ([Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)).
 		* I'm still uncertain weather this is the right license to have here.
-	* Added `COPYRIGHT` file.
 * Moved browser tests from WIKI and into `CHANGELOG.md`.
 
 ##### Browser tests:
