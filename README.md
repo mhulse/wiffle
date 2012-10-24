@@ -22,9 +22,9 @@
 
 #### Demo:
 
-Scan with phone and/or click to view demo:
-
 [![qr code](http://chart.apis.google.com/chart?cht=qr&chl=http://registerguard.github.com/wiffle&chs=240x240)](http://registerguard.github.com/wiffle/demos/)
+
+(Scan above QR code with phone and/or click to view demo.)
 
 ---
 
