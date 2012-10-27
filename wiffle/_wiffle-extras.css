@@ -6,9 +6,9 @@
 
 /**
  * Vertical lines between `px` and `h2o` columns.
- * Compatible with IE >= 9.
+ * Compatible with IE >= 8.
  *
- * IE 7 is having issues showing/hidding pseudo elements.
+ * Unfortunately, IE 8 is having issues showing/hidding pseudo elements.
  * Using hack to target everything but IE 6-8.
  *
  * @see rgne.ws/M85ynR
@@ -20,12 +20,19 @@
 :root *> .w_Alb:before, :root *> .w_Ala:after { display: block; } /* rgne.ws/TxmM1l */
 
 /**
- * Borders.
+ * Modules.
  * Designed for use on a "wrapping" `div` inside columns.
  */
 
 .w_Ansew, .w_Bnsew, .w_Cnsew, .w_Dnsew, .w_Ans, .w_Bns, .w_Cns, .w_Dns, .w_Aew, .w_Bew, .w_Cew, .w_Dew, .w_An, .w_Bn, .w_Cn, .w_Dn, .w_As, .w_Bs, .w_Cs, .w_Ds, .w_Ae, .w_Be, .w_Ce, .w_De, .w_Aw, .w_Bw, .w_Cw, .w_Dw { border-width: 0; border-style: solid; border-color: #ccc; }
-.w_Ansew { border-width: 1px; } .w_Ans { border-top-width: 1px; border-bottom-width: 1px; } .w_Aew { border-right-width: 1px; border-left-width: 1px; } .w_An { border-top-width: 1px; } .w_As { border-bottom-width: 1px; } .w_Ae { border-right-width: 1px; } .w_Aw { border-left-width: 1px; }
+
+.w_Ansew { border-width: 1px; margin: 20px; padding: 20px; }
+.w_Ans { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
+.w_Aew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
+.w_An { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
+.w_As { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
+.w_Ae { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
+.w_Aw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
 
 /*----------------------------------*/
 
@@ -59,11 +66,24 @@
 	/*----------------------------------*/
 	
 	/**
-	 * Borders.
+	 * Modules.
 	 */
 	
-	.w_Ansew { border-width: 0; } .w_Ans { border-top-width: 0; border-bottom-width: 0; } .w_Aew { border-right-width: 0; border-left-width: 0; } .w_An { border-top-width: 0; } .w_As { border-bottom-width: 0; } .w_Ae { border-right-width: 0; } .w_Aw { border-left-width: 0; }
-	.w_Bnsew { border-width: 1px; } .w_Bns { border-top-width: 1px; border-bottom-width: 1px; } .w_Bew { border-right-width: 1px; border-left-width: 1px; } .w_Bn { border-top-width: 1px; } .w_Bs { border-bottom-width: 1px; } .w_Be { border-right-width: 1px; } .w_Bw { border-left-width: 1px; }
+	.w_Ansew { border-width: 0; margin: 0; padding: 0; }
+	.w_Ans { border-top-width: 0; border-bottom-width: 0; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
+	.w_Aew { border-right-width: 0; border-left-width: 0; margin-right: 0; margin-left: 0; padding-right: 0; padding-left: 0; }
+	.w_An { border-top-width: 0; margin-top: 0; padding-top: 0; }
+	.w_As { border-bottom-width: 0; margin-bottom: 0; padding-bottom: 0; }
+	.w_Ae { border-right-width: 0; margin-right: 0; padding-right: 0; }
+	.w_Aw { border-left-width: 0; margin-left: 0; padding-left: 0; }
+	
+	.w_Bnsew { border-width: 1px; margin: 20px; padding: 19px; }
+	.w_Bns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
+	.w_Bew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
+	.w_Bn { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
+	.w_Bs { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
+	.w_Be { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
+	.w_Bw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
 	
 	/*----------------------------------*/
 	
@@ -97,11 +117,24 @@
 	/*----------------------------------*/
 	
 	/**
-	 * Borders.
+	 * Modules.
 	 */
 	
-	.w_Bnsew { border-width: 0; } .w_Bns { border-top-width: 0; border-bottom-width: 0; } .w_Bew { border-right-width: 0; border-left-width: 0; } .w_Bn { border-top-width: 0; } .w_Bs { border-bottom-width: 0; } .w_Be { border-right-width: 0; } .w_Bw { border-left-width: 0; }
-	.w_Cnsew { border-width: 1px; } .w_Cns { border-top-width: 1px; border-bottom-width: 1px; } .w_Cew { border-right-width: 1px; border-left-width: 1px; } .w_Cn { border-top-width: 1px; } .w_Cs { border-bottom-width: 1px; } .w_Ce { border-right-width: 1px; } .w_Cw { border-left-width: 1px; }
+	.w_Bnsew { border-width: 0; margin: 0; padding: 0; }
+	.w_Bns { border-top-width: 0; border-bottom-width: 0; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
+	.w_Bew { border-right-width: 0; border-left-width: 0; margin-right: 0; margin-left: 0; padding-right: 0; padding-left: 0; }
+	.w_Bn { border-top-width: 0; margin-top: 0; padding-top: 0; }
+	.w_Bs { border-bottom-width: 0; margin-bottom: 0; padding-bottom: 0; }
+	.w_Be { border-right-width: 0; margin-right: 0; padding-right: 0; }
+	.w_Bw { border-left-width: 0; margin-left: 0; padding-left: 0; }
+	
+	.w_Cnsew { border-width: 1px; margin: 20px; padding: 19px; }
+	.w_Cns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
+	.w_Cew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
+	.w_Cn { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
+	.w_Cs { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
+	.w_Ce { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
+	.w_Cw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
 	
 	/*----------------------------------*/
 	
@@ -135,11 +168,24 @@
 	/*----------------------------------*/
 	
 	/**
-	 * Borders.
+	 * Modules.
 	 */
 	
-	.w_Cnsew { border-width: 0; } .w_Cns { border-top-width: 0; border-bottom-width: 0; } .w_Cew { border-right-width: 0; border-left-width: 0; } .w_Cn { border-top-width: 0; } .w_Cs { border-bottom-width: 0; } .w_Ce { border-right-width: 0; } .w_Cw { border-left-width: 0; }
-	.w_Dnsew { border-width: 1px; } .w_Dns { border-top-width: 1px; border-bottom-width: 1px; } .w_Dew { border-right-width: 1px; border-left-width: 1px; } .w_Dn { border-top-width: 1px; } .w_Ds { border-bottom-width: 1px; } .w_De { border-right-width: 1px; } .w_Dw { border-left-width: 1px; }
+	.w_Cnsew { border-width: 0; margin: 0; padding: 0; }
+	.w_Cns { border-top-width: 0; border-bottom-width: 0; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
+	.w_Cew { border-right-width: 0; border-left-width: 0; margin-right: 0; margin-left: 0; padding-right: 0; padding-left: 0; }
+	.w_Cn { border-top-width: 0; margin-top: 0; padding-top: 0; }
+	.w_Cs { border-bottom-width: 0; margin-bottom: 0; padding-bottom: 0; }
+	.w_Ce { border-right-width: 0; margin-right: 0; padding-right: 0; }
+	.w_Cw { border-left-width: 0; margin-left: 0; padding-left: 0; }
+	
+	.w_Dnsew { border-width: 1px; margin: 20px; padding: 19px; }
+	.w_Dns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
+	.w_Dew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
+	.w_Dn { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
+	.w_Ds { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
+	.w_De { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
+	.w_Dw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
 	
 	/*----------------------------------*/
 	
