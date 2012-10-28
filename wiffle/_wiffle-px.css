@@ -43,6 +43,31 @@
 		.debug .w_B470 { background: rgba(0, 128, 128, .25); } /* teal, #008080 */
 	.w_B130, .w_B300, .w_B470 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; } /* Remove padding in place of margin (see link above). */
 	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear preceding `px` columns.
+	 */
+	
+	.w_Bc { clear: left; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * `px` columns, right.
+	 * Compatible with IE > 6.
+	 */
+	
+	.w_row.w_Br > .w_col { float: right; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear succeeding `px` columns.
+	 */
+	
+	.w_row.w_Br > .w_col.w_Bc { clear: right; }
+	
 }
 
 @media only screen and (min-width: 1005px) {
@@ -64,6 +89,30 @@
 		.debug .w_C640 { background: rgba(255, 255, 255, .25); } /* white, #fff */
 		.debug .w_C810 { background: rgba(240, 230, 140, .25); } /* khaki, #f0e68c */
 	.w_C130, .w_C300, .w_C470, .w_C640, .w_C810 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear preceding `px` columns.
+	 */
+	
+	.w_Bc { clear: none; } .w_Cc { clear: left; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * `px` columns, right.
+	 */
+	
+	.w_row.w_Cr > .w_col { float: right; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear succeeding `px` columns.
+	 */
+	
+	.w_row.w_Br > .w_col.w_Bc { clear: none; } .w_row.w_Cr > .w_col.w_Cc { clear: right; }
 	
 }
 
@@ -90,5 +139,29 @@
 		.debug .w_D980 { background: rgba(128, 0, 0, .25); }     /* maroon, #800000 */
 		.debug .w_D1150 { background: rgba(64, 224, 208, .25); } /* turquoise, #40e0d0 */
 	.w_D130, .w_D300, .w_D470, .w_D640, .w_D810, .w_D980, .w_D1150 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear preceding `px` columns.
+	 */
+	
+	.w_Cc { clear: none; } .w_Dc { clear: left; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * `px` columns, right.
+	 */
+	
+	.w_row.w_Dr > .w_col { float: right; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear succeeding `px` columns.
+	 */
+	
+	.w_row.w_Cr > .w_col.w_Cc { clear: none; } .w_row.w_Dr > .w_col.w_Dc { clear: right; }
 	
 }

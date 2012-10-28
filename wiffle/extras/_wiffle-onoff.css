@@ -1,0 +1,79 @@
+/* ==========================================================================
+   _wiffle-onoff.css
+   ========================================================================== */
+
+/*-----------------( [ A ]LPHA )-----------------*/
+
+/**
+ * Turn display/visibility ON.
+ * Show/hide from both screen readers and browsers.
+ */
+
+.w_Bon, .w_Con, .w_Don { display: none !important; visibility: hidden; }
+.w_Aon { display: block !important; visibility: visible; }
+
+/**
+ * Turn display/visibility OFF.
+ * IBID.
+ */
+
+.w_Boff, .w_Coff, .w_Doff { display: block !important; visibility: visible; }
+.w_Aoff { display: none !important; visibility: hidden; }
+
+@media only screen and (min-width: 665px) {
+	
+	/*-----------------( [ B ]RAVO )-----------------*/
+	
+	/**
+	 * Turn display/visibility ON.
+	 */
+	
+	.w_Aon { display: none !important; visibility: hidden; }
+	.w_Bon { display: block !important; visibility: visible; }
+	
+	/**
+	 * Turn display/visibility OFF.
+	 */
+	
+	.w_Aoff { display: block !important; visibility: visible; }
+	.w_Boff { display: none !important; visibility: hidden; }
+	
+}
+
+@media only screen and (min-width: 1005px) {
+	
+	/*-----------------( [ C ]HARLIE )-----------------*/
+	
+	/**
+	 * Turn display/visibility ON.
+	 */
+	
+	.w_Bon { display: none !important; visibility: hidden; }
+	.w_Con { display: block !important; visibility: visible; }
+	
+	/**
+	 * Turn display/visibility OFF.
+	 */
+	
+	.w_Boff { display: block !important; visibility: visible; }
+	.w_Coff { display: none !important; visibility: hidden; }
+
+@media only screen and (min-width: 1345px) {
+	
+	/*-----------------( [ D ]ELTA )-----------------*/
+	
+	/**
+	 * Turn display/visibility ON.
+	 */
+	
+	.w_Con { display: none !important; visibility: hidden; }
+	.w_Don { display: block !important; visibility: visible; }
+	
+	/**
+	 * Turn display/visibility OFF.
+	 */
+	
+	.w_Coff { display: block !important; visibility: visible; }
+	.w_Doff { display: none !important; visibility: hidden; }
+	
+}

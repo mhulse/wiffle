@@ -14,6 +14,8 @@
 	.w_area { width: 100%; float: left; display: inline; position: relative; } /* rgne.ws/SX31y1 */
 		.debug .w_area { background: rgba(0, 0, 255, .25); } /* blue, #00f */
 
+/*----------------------------------*/
+
 /**
  * `px` columns.
  */
@@ -21,6 +23,8 @@
 .w_A130fl, .w_A130fr { width: 130px; }
 	.debug .w_A130fl, .debug .w_A130fr { background: rgba(0, 0, 128, .25); } /* navy, #000080 */
 .w_A130fl { _margin-right: 37px; } .w_A130fr { _margin-left: 37px; float: right; }
+
+/*----------------------------------*/
 
 /**
  * Column `remainder`.
@@ -46,6 +50,8 @@
 		.debug .w_B470fl, .debug .w_B470fr { background: rgba(240, 230, 140, .25); } /* khaki, #f0e68c */
 	.w_B130fl, .w_B300fl, .w_B470fl { _margin-right: 37px; }
 	.w_B130fr, .w_B300fr, .w_B470fr { _margin-left: 37px; float: right; }
+	
+	/*----------------------------------*/
 	
 	/**
 	 * Column `remainder`.
@@ -81,6 +87,8 @@
 		.debug .w_C810fl, .debug .w_C810fr { background: rgba(255, 255, 0, .25); }  /* yellow, #ff0 */
 	.w_C130fl, .w_C300fl, .w_C470fl, .w_C640fl, .w_C810fl { _margin-right: 37px; }
 	.w_C130fr, .w_C300fr, .w_C470fr, .w_C640fr, .w_C810fr { _margin-left: 37px; float: right; }
+	
+	/*----------------------------------*/
 	
 	/**
 	 * Column `remainder`.
@@ -124,6 +132,8 @@
 		.debug .w_D1150fl, .debug .w_D1150fr { background: rgba(216, 191, 216, .25); } /* thistle, #d8bfd8 */
 	.w_D130fl, .w_D300fl, .w_D470fl, .w_D640fl, .w_D810fl, .w_D980fl, .w_D1150fl { _margin-right: 37px; }
 	.w_D130fr, .w_D300fr, .w_D470fr, .w_D640fr, .w_D810fr, .w_D980fr, .w_D1150fr { _margin-left: 37px; float: right; }
+	
+	/*----------------------------------*/
 	
 	/**
 	 * Column `remainder`.

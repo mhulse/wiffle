@@ -7,8 +7,8 @@
  * @docs https://github.com/registerguard/wiffle
  * @copyright (c) 2012 Micky Hulse/The Register-Guard
  * @license Apache License, Version 2.0.
- * @version v3.2.0
- * @date 2012/10/23
+ * @version v3.3.0
+ * @date 2012/10/28
  */
 
 /* ==========================================================================
@@ -144,6 +144,31 @@
 		.debug .w_B470 { background: rgba(0, 128, 128, .25); } /* teal, #008080 */
 	.w_B130, .w_B300, .w_B470 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; } /* Remove padding in place of margin (see link above). */
 	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear preceding `px` columns.
+	 */
+	
+	.w_Bc { clear: left; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * `px` columns, right.
+	 * Compatible with IE > 6.
+	 */
+	
+	.w_row.w_Br > .w_col { float: right; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear succeeding `px` columns.
+	 */
+	
+	.w_row.w_Br > .w_col.w_Bc { clear: right; }
+	
 }
 
 @media only screen and (min-width: 1005px) {
@@ -165,6 +190,30 @@
 		.debug .w_C640 { background: rgba(255, 255, 255, .25); } /* white, #fff */
 		.debug .w_C810 { background: rgba(240, 230, 140, .25); } /* khaki, #f0e68c */
 	.w_C130, .w_C300, .w_C470, .w_C640, .w_C810 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear preceding `px` columns.
+	 */
+	
+	.w_Bc { clear: none; } .w_Cc { clear: left; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * `px` columns, right.
+	 */
+	
+	.w_row.w_Cr > .w_col { float: right; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear succeeding `px` columns.
+	 */
+	
+	.w_row.w_Br > .w_col.w_Bc { clear: none; } .w_row.w_Cr > .w_col.w_Cc { clear: right; }
 	
 }
 
@@ -191,6 +240,30 @@
 		.debug .w_D980 { background: rgba(128, 0, 0, .25); }     /* maroon, #800000 */
 		.debug .w_D1150 { background: rgba(64, 224, 208, .25); } /* turquoise, #40e0d0 */
 	.w_D130, .w_D300, .w_D470, .w_D640, .w_D810, .w_D980, .w_D1150 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear preceding `px` columns.
+	 */
+	
+	.w_Cc { clear: none; } .w_Dc { clear: left; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * `px` columns, right.
+	 */
+	
+	.w_row.w_Dr > .w_col { float: right; }
+	
+	/*----------------------------------*/
+	
+	/**
+	 * Clear succeeding `px` columns.
+	 */
+	
+	.w_row.w_Cr > .w_col.w_Cc { clear: none; } .w_row.w_Dr > .w_col.w_Dc { clear: right; }
 	
 }
 
@@ -438,6 +511,8 @@
 	.w_area { width: 100%; float: left; display: inline; position: relative; } /* rgne.ws/SX31y1 */
 		.debug .w_area { background: rgba(0, 0, 255, .25); } /* blue, #00f */
 
+/*----------------------------------*/
+
 /**
  * `px` columns.
  */
@@ -445,6 +520,8 @@
 .w_A130fl, .w_A130fr { width: 130px; }
 	.debug .w_A130fl, .debug .w_A130fr { background: rgba(0, 0, 128, .25); } /* navy, #000080 */
 .w_A130fl { _margin-right: 37px; } .w_A130fr { _margin-left: 37px; float: right; }
+
+/*----------------------------------*/
 
 /**
  * Column `remainder`.
@@ -470,6 +547,8 @@
 		.debug .w_B470fl, .debug .w_B470fr { background: rgba(240, 230, 140, .25); } /* khaki, #f0e68c */
 	.w_B130fl, .w_B300fl, .w_B470fl { _margin-right: 37px; }
 	.w_B130fr, .w_B300fr, .w_B470fr { _margin-left: 37px; float: right; }
+	
+	/*----------------------------------*/
 	
 	/**
 	 * Column `remainder`.
@@ -505,6 +584,8 @@
 		.debug .w_C810fl, .debug .w_C810fr { background: rgba(255, 255, 0, .25); }  /* yellow, #ff0 */
 	.w_C130fl, .w_C300fl, .w_C470fl, .w_C640fl, .w_C810fl { _margin-right: 37px; }
 	.w_C130fr, .w_C300fr, .w_C470fr, .w_C640fr, .w_C810fr { _margin-left: 37px; float: right; }
+	
+	/*----------------------------------*/
 	
 	/**
 	 * Column `remainder`.
@@ -549,6 +630,8 @@
 	.w_D130fl, .w_D300fl, .w_D470fl, .w_D640fl, .w_D810fl, .w_D980fl, .w_D1150fl { _margin-right: 37px; }
 	.w_D130fr, .w_D300fr, .w_D470fr, .w_D640fr, .w_D810fr, .w_D980fr, .w_D1150fr { _margin-left: 37px; float: right; }
 	
+	/*----------------------------------*/
+	
 	/**
 	 * Column `remainder`.
 	 */
@@ -568,280 +651,5 @@
 		.debug .w_D980ml, .debug .w_D980mr { background: rgba(0, 128, 0, .25); }       /* green, #008000 */
 		.debug .w_D1150ml, .debug .w_D1150mr { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
 	.w_D130ml, .w_D130mr, .w_D300ml, .w_D300mr, .w_D470ml, .w_D470mr, .w_D640ml, .w_D640mr, .w_D810ml, .w_D810mr, .w_D980ml, .w_D980mr, .w_D1150ml, .w_D1150mr { width: auto; _height: 1%; margin-top: -1px; _margin-right: 0; margin-bottom: -1px; _margin-left: 0; padding: 1px 0; float: none; display: block; }
-	
-}
-
-/* ==========================================================================
-   _wiffle-utils.css
-   ========================================================================== */
-
-@media only screen and (min-width: 665px) {
-	
-	/*-----------------( [ B ]RAVO )-----------------*/
-	
-	/**
-	 * Clear preceding `px` columns.
-	 */
-	
-	.w_Bc { clear: left; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * `px` columns, right.
-	 * Compatible with IE > 6.
-	 */
-	
-	.w_row.w_Br > .w_col { float: right; }
-	
-	/**
-	 * Clear succeeding `px` columns.
-	 */
-	
-	.w_row.w_Br > .w_col.w_Bc { clear: right; }
-	
-}
-
-@media only screen and (min-width: 1005px) {
-	
-	/*-----------------( [ C ]HARLIE )-----------------*/
-	
-	/**
-	 * Clear preceding `px` columns.
-	 */
-	
-	.w_Bc { clear: none; } .w_Cc { clear: left; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * `px` columns, right.
-	 */
-	
-	.w_row.w_Cr > .w_col { float: right; }
-	
-	/**
-	 * Clear succeeding `px` columns.
-	 */
-	
-	.w_row.w_Br > .w_col.w_Bc { clear: none; } .w_row.w_Cr > .w_col.w_Cc { clear: right; }
-	
-}
-
-@media only screen and (min-width: 1345px) {
-	
-	/*-----------------( [ D ]ELTA )-----------------*/
-	
-	/**
-	 * Clear preceding `px` columns.
-	 */
-	
-	.w_Cc { clear: none; } .w_Dc { clear: left; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * `px` columns, right.
-	 */
-	
-	.w_row.w_Dr > .w_col { float: right; }
-	
-	/**
-	 * Clear succeeding `px` columns.
-	 */
-	
-	.w_row.w_Cr > .w_col.w_Cc { clear: none; } .w_row.w_Dr > .w_col.w_Dc { clear: right; }
-	
-}
-
-/* ==========================================================================
-   _wiffle-extras.css
-   ========================================================================== */
-
-/*-----------------( [ A ]LPHA )-----------------*/
-
-/**
- * Vertical lines between `px` and `h2o` columns.
- * Compatible with IE >= 8.
- *
- * Unfortunately, IE 8 is having issues showing/hidding pseudo elements.
- * Using hack to target everything but IE 6-8.
- *
- * @see rgne.ws/M85ynR
- */
-
-.w_Alb:before, .w_Blb:before, .w_Clb:before, .w_Dlb:before, .w_Ala:after, .w_Bla:after, .w_Cla:after, .w_Dla:after { border-right: 1px solid #ccc; content: ""; display: none; position: absolute; top: 0; bottom: 0; }
-.w_Alb:before, .w_Blb:before, .w_Clb:before, .w_Dlb:before { left: -21px; }
-.w_Ala:after, .w_Bla:after, .w_Cla:after, .w_Dla:after { right: -20px; }
-:root *> .w_Alb:before, :root *> .w_Ala:after { display: block; } /* rgne.ws/TxmM1l */
-
-/**
- * Boxes.
- * Designed for use on a "wrapping" `div` inside columns.
- */
-
-.w_Ansew, .w_Ans, .w_Aew, .w_An, .w_As, .w_Ae, .w_Aw,
-.w_Bnsew, .w_Bns, .w_Bew, .w_Bn, .w_Bs, .w_Be, .w_Bw,
-.w_Cnsew, .w_Cns, .w_Cew, .w_Cn, .w_Cs, .w_Ce, .w_Cw,
-.w_Dnsew, .w_Dns, .w_Dew, .w_Dn, .w_Ds, .w_De, .w_Dw { border: 0 solid #ccc; padding: 1px 0; margin: -1px 0; } /* rgne.ws/JAoGck */
-
-.w_Ansew { border-width: 1px; margin: 10px; padding: 10px; }
-.w_Ans { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
-.w_Aew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
-.w_An { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
-.w_As { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
-.w_Ae { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
-.w_Aw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
-
-/*----------------------------------*/
-
-/**
- * Turn display/visibility ON.
- * Show/hide from both screen readers and browsers.
- */
-
-.w_Bon, .w_Con, .w_Don { display: none !important; visibility: hidden; }
-.w_Aon { display: block !important; visibility: visible; }
-
-/**
- * Turn display/visibility OFF.
- * IBID.
- */
-
-.w_Boff, .w_Coff, .w_Doff { display: block !important; visibility: visible; }
-.w_Aoff { display: none !important; visibility: hidden; }
-
-@media only screen and (min-width: 665px) { /* rgne.ws/PYeOx5 */
-	
-	/*-----------------( [ B ]RAVO )-----------------*/
-	
-	/**
-	 * Vertical lines between `px` and `h2o` columns.
-	 */
-	
-	.w_Alb:before, .w_Ala:after { display: none; }
-	:root *> .w_Blb:before, :root *> .w_Bla:after { display: block; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Boxes.
-	 */
-	
-	.w_Ansew, .w_Ans, .w_Aew, .w_An, .w_As, .w_Ae, .w_Aw { border-width: 0; padding: 1px 0; margin: -1px 0; }
-	
-	.w_Bnsew { border-width: 1px; margin: 10px; padding: 9px; }
-	.w_Bns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
-	.w_Bew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
-	.w_Bn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
-	.w_Bs { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
-	.w_Be { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
-	.w_Bw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Turn display/visibility ON.
-	 */
-	
-	.w_Aon { display: none !important; visibility: hidden; }
-	.w_Bon { display: block !important; visibility: visible; }
-	
-	/**
-	 * Turn display/visibility OFF.
-	 */
-	
-	.w_Aoff { display: block !important; visibility: visible; }
-	.w_Boff { display: none !important; visibility: hidden; }
-	
-}
-
-@media only screen and (min-width: 1005px) {
-	
-	/*-----------------( [ C ]HARLIE )-----------------*/
-	
-	/**
-	 * Vertical lines between `px` and `h2o` columns.
-	 */
-	
-	.w_Blb:before, .w_Bla:after { display: none; }
-	:root *> .w_Clb:before, :root *> .w_Cla:after { display: block; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Boxes.
-	 */
-	
-	.w_Bnsew, .w_Bns, .w_Bew, .w_Bn, .w_Bs, .w_Be, .w_Bw { border-width: 0; padding: 1px 0; margin: -1px 0; }
-	
-	.w_Cnsew { border-width: 1px; margin: 10px; padding: 9px; }
-	.w_Cns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
-	.w_Cew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
-	.w_Cn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
-	.w_Cs { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
-	.w_Ce { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
-	.w_Cw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Turn display/visibility ON.
-	 */
-	
-	.w_Bon { display: none !important; visibility: hidden; }
-	.w_Con { display: block !important; visibility: visible; }
-	
-	/**
-	 * Turn display/visibility OFF.
-	 */
-	
-	.w_Boff { display: block !important; visibility: visible; }
-	.w_Coff { display: none !important; visibility: hidden; }
-	
-}
-
-@media only screen and (min-width: 1345px) {
-	
-	/*-----------------( [ D ]ELTA )-----------------*/
-	
-	/**
-	 * Vertical lines between `px` and `h2o` columns.
-	 */
-	
-	.w_Clb:before, .w_Cla:after { display: none; }
-	:root *> .w_Dlb:before, :root *> .w_Dla:after { display: block; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Boxes.
-	 */
-	
-	.w_Cnsew, .w_Cns, .w_Cew, .w_Cn, .w_Cs, .w_Ce, .w_Cw { border-width: 0; padding: 1px 0; margin: -1px 0; }
-	
-	.w_Dnsew { border-width: 1px; margin: 10px; padding: 9px; }
-	.w_Dns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
-	.w_Dew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
-	.w_Dn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
-	.w_Ds { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
-	.w_De { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
-	.w_Dw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
-	
-	/*----------------------------------*/
-	
-	/**
-	 * Turn display/visibility ON.
-	 */
-	
-	.w_Con { display: none !important; visibility: hidden; }
-	.w_Don { display: block !important; visibility: visible; }
-	
-	/**
-	 * Turn display/visibility OFF.
-	 */
-	
-	.w_Coff { display: block !important; visibility: visible; }
-	.w_Doff { display: none !important; visibility: hidden; }
 	
 }
