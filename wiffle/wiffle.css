@@ -676,19 +676,22 @@
 :root *> .w_Alb:before, :root *> .w_Ala:after { display: block; } /* rgne.ws/TxmM1l */
 
 /**
- * Modules.
+ * Boxes.
  * Designed for use on a "wrapping" `div` inside columns.
  */
 
-.w_Ansew, .w_Bnsew, .w_Cnsew, .w_Dnsew, .w_Ans, .w_Bns, .w_Cns, .w_Dns, .w_Aew, .w_Bew, .w_Cew, .w_Dew, .w_An, .w_Bn, .w_Cn, .w_Dn, .w_As, .w_Bs, .w_Cs, .w_Ds, .w_Ae, .w_Be, .w_Ce, .w_De, .w_Aw, .w_Bw, .w_Cw, .w_Dw { border-width: 0; border-style: solid; border-color: #ccc; }
+.w_Ansew, .w_Ans, .w_Aew, .w_An, .w_As, .w_Ae, .w_Aw,
+.w_Bnsew, .w_Bns, .w_Bew, .w_Bn, .w_Bs, .w_Be, .w_Bw,
+.w_Cnsew, .w_Cns, .w_Cew, .w_Cn, .w_Cs, .w_Ce, .w_Cw,
+.w_Dnsew, .w_Dns, .w_Dew, .w_Dn, .w_Ds, .w_De, .w_Dw { border: 0 solid #ccc; padding: 1px 0; margin: -1px 0; } /* rgne.ws/JAoGck */
 
-.w_Ansew { border-width: 1px; margin: 20px; padding: 20px; }
-.w_Ans { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
-.w_Aew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
-.w_An { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
-.w_As { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
-.w_Ae { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
-.w_Aw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
+.w_Ansew { border-width: 1px; margin: 10px; padding: 10px; }
+.w_Ans { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+.w_Aew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+.w_An { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+.w_As { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+.w_Ae { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+.w_Aw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
 
 /*----------------------------------*/
 
@@ -708,7 +711,7 @@
 .w_Boff, .w_Coff, .w_Doff { display: block !important; visibility: visible; }
 .w_Aoff { display: none !important; visibility: hidden; }
 
-@media only screen and (min-width: 665px) {
+@media only screen and (min-width: 665px) { /* rgne.ws/PYeOx5 */
 	
 	/*-----------------( [ B ]RAVO )-----------------*/
 	
@@ -722,24 +725,18 @@
 	/*----------------------------------*/
 	
 	/**
-	 * Modules.
+	 * Boxes.
 	 */
 	
-	.w_Ansew { border-width: 0; margin: 0; padding: 0; }
-	.w_Ans { border-top-width: 0; border-bottom-width: 0; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
-	.w_Aew { border-right-width: 0; border-left-width: 0; margin-right: 0; margin-left: 0; padding-right: 0; padding-left: 0; }
-	.w_An { border-top-width: 0; margin-top: 0; padding-top: 0; }
-	.w_As { border-bottom-width: 0; margin-bottom: 0; padding-bottom: 0; }
-	.w_Ae { border-right-width: 0; margin-right: 0; padding-right: 0; }
-	.w_Aw { border-left-width: 0; margin-left: 0; padding-left: 0; }
+	.w_Ansew, .w_Ans, .w_Aew, .w_An, .w_As, .w_Ae, .w_Aw { border: 0; padding: 1px 0; margin: -1px 0; }
 	
-	.w_Bnsew { border-width: 1px; margin: 20px; padding: 19px; }
-	.w_Bns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
-	.w_Bew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
-	.w_Bn { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
-	.w_Bs { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
-	.w_Be { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
-	.w_Bw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
+	.w_Bnsew { border-width: 1px; margin: 10px; padding: 9px; }
+	.w_Bns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.w_Bew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.w_Bn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.w_Bs { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.w_Be { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.w_Bw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
 	
 	/*----------------------------------*/
 	
@@ -773,24 +770,18 @@
 	/*----------------------------------*/
 	
 	/**
-	 * Modules.
+	 * Boxes.
 	 */
 	
-	.w_Bnsew { border-width: 0; margin: 0; padding: 0; }
-	.w_Bns { border-top-width: 0; border-bottom-width: 0; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
-	.w_Bew { border-right-width: 0; border-left-width: 0; margin-right: 0; margin-left: 0; padding-right: 0; padding-left: 0; }
-	.w_Bn { border-top-width: 0; margin-top: 0; padding-top: 0; }
-	.w_Bs { border-bottom-width: 0; margin-bottom: 0; padding-bottom: 0; }
-	.w_Be { border-right-width: 0; margin-right: 0; padding-right: 0; }
-	.w_Bw { border-left-width: 0; margin-left: 0; padding-left: 0; }
+	.w_Bnsew, .w_Bns, .w_Bew, .w_Bn, .w_Bs, .w_Be, .w_Bw { border: 0; padding: 1px 0; margin: -1px 0; }
 	
-	.w_Cnsew { border-width: 1px; margin: 20px; padding: 19px; }
-	.w_Cns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
-	.w_Cew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
-	.w_Cn { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
-	.w_Cs { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
-	.w_Ce { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
-	.w_Cw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
+	.w_Cnsew { border-width: 1px; margin: 10px; padding: 9px; }
+	.w_Cns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.w_Cew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.w_Cn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.w_Cs { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.w_Ce { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.w_Cw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
 	
 	/*----------------------------------*/
 	
@@ -824,24 +815,18 @@
 	/*----------------------------------*/
 	
 	/**
-	 * Modules.
+	 * Boxes.
 	 */
 	
-	.w_Cnsew { border-width: 0; margin: 0; padding: 0; }
-	.w_Cns { border-top-width: 0; border-bottom-width: 0; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
-	.w_Cew { border-right-width: 0; border-left-width: 0; margin-right: 0; margin-left: 0; padding-right: 0; padding-left: 0; }
-	.w_Cn { border-top-width: 0; margin-top: 0; padding-top: 0; }
-	.w_Cs { border-bottom-width: 0; margin-bottom: 0; padding-bottom: 0; }
-	.w_Ce { border-right-width: 0; margin-right: 0; padding-right: 0; }
-	.w_Cw { border-left-width: 0; margin-left: 0; padding-left: 0; }
+	.w_Cnsew, .w_Cns, .w_Cew, .w_Cn, .w_Cs, .w_Ce, .w_Cw { border: 0; padding: 1px 0; margin: -1px 0; }
 	
-	.w_Dnsew { border-width: 1px; margin: 20px; padding: 19px; }
-	.w_Dns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
-	.w_Dew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
-	.w_Dn { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
-	.w_Ds { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
-	.w_De { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
-	.w_Dw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
+	.w_Dnsew { border-width: 1px; margin: 10px; padding: 9px; }
+	.w_Dns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.w_Dew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.w_Dn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.w_Ds { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.w_De { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.w_Dw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
 	
 	/*----------------------------------*/
 	

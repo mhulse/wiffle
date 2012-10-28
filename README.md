@@ -6,7 +6,7 @@
 
 ---
 
-###### FEATURES
+#### FEATURES
 
 * [Mobile first](http://vimeo.com/38187066) CSS.
 * Compatible with IE 6 and above ([media query pollyfill](https://github.com/scottjehl/Respond) required).
@@ -15,13 +15,13 @@
 
 ---
 
-###### INFO
+#### INFO
 
 **Jam on it! …(We get to say [wikki-wikki-wikki](https://github.com/registerguard/wiffle/wiki) again) [Wikki-wikki-wikki-wikki](https://github.com/registerguard/wiffle/wiki) (Shut up) [Wikki-wikki-wikki-wikki](https://github.com/registerguard/wiffle/wiki) [Wikki-wikki-wikki-wikki](https://github.com/registerguard/wiffle/wiki)… I said [jam-j-j-jam](http://www.youtube.com/watch?v=zEmg5GaAHbk) on it!**
 
 ---
 
-###### DEMO
+#### DEMO
 
 [![qr code](http://chart.apis.google.com/chart?cht=qr&chl=http://registerguard.github.com/wiffle&chs=240x240)](http://registerguard.github.com/wiffle/demos/)
 
@@ -29,7 +29,7 @@
 
 ---
 
-###### LEGAL
+#### LEGAL
 
 Copyright © 2012 [Micky Hulse](http://hulse.me)/[The Register-Guard](http://www.registerguard.com)
 
