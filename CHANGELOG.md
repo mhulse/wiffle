@@ -7,6 +7,20 @@
 
 ---
 
+## v3.3.0
+#### October 28, 2012
+
+* Bumped version number to `v3.3.0`.
+* Got rid of boxes styles.
+* Tweaked `README.md`.
+* Added a lines demo page.
+* Modified on/off demo page.
+* Removed utils and extra files.
+* Moved utils into `px` breakpoints.
+* Update main demo page and CSS.
+
+---
+
 ## v3.2.0
 #### October 23, 2012
 

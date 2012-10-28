@@ -653,3 +653,151 @@
 	.w_D130ml, .w_D130mr, .w_D300ml, .w_D300mr, .w_D470ml, .w_D470mr, .w_D640ml, .w_D640mr, .w_D810ml, .w_D810mr, .w_D980ml, .w_D980mr, .w_D1150ml, .w_D1150mr { width: auto; _height: 1%; margin-top: -1px; _margin-right: 0; margin-bottom: -1px; _margin-left: 0; padding: 1px 0; float: none; display: block; }
 	
 }
+
+/* ==========================================================================
+   extras/_wiffle-lines.css
+   ========================================================================== */
+
+/*-----------------( [ A ]LPHA )-----------------*/
+
+/**
+ * Vertical lines between `px` and `h2o` columns.
+ * Compatible with IE >= 8.
+ *
+ * Unfortunately, IE 8 is having issues showing/hidding pseudo elements.
+ * Using hack to target everything but IE 6-8.
+ *
+ * @see rgne.ws/M85ynR
+ */
+
+.w_Alb:before, .w_Blb:before, .w_Clb:before, .w_Dlb:before, .w_Ala:after, .w_Bla:after, .w_Cla:after, .w_Dla:after { border-right: 1px solid #ccc; content: ""; display: none; position: absolute; top: 0; bottom: 0; }
+.w_Alb:before, .w_Blb:before, .w_Clb:before, .w_Dlb:before { left: -21px; }
+.w_Ala:after, .w_Bla:after, .w_Cla:after, .w_Dla:after { right: -20px; }
+
+@media only screen and (min-width: 0) and (max-width: 664px) { /* rgne.ws/PYeOx5 */
+	
+	/*-----------------( [ A ]LPHA )-----------------*/
+	
+	/**
+	 * Vertical lines between `px` and `h2o` columns.
+	 */
+	
+	:root *> .w_Alb:before, :root *> .w_Ala:after { display: block; } /* rgne.ws/TxmM1l */
+	
+}
+
+@media only screen and (min-width: 665px) and (max-width: 1004px) {
+	
+	/*-----------------( [ B ]RAVO )-----------------*/
+	
+	/**
+	 * Vertical lines between `px` and `h2o` columns.
+	 */
+	
+	:root *> .w_Blb:before, :root *> .w_Bla:after { display: block; }
+	
+}
+
+@media only screen and (min-width: 1005px) and (max-width: 1344px) {
+	
+	/*-----------------( [ C ]HARLIE )-----------------*/
+	
+	/**
+	 * Vertical lines between `px` and `h2o` columns.
+	 */
+	
+	:root *> .w_Clb:before, :root *> .w_Cla:after { display: block; }
+	
+}
+
+@media only screen and (min-width: 1345px) {
+	
+	/*-----------------( [ D ]ELTA )-----------------*/
+	
+	/**
+	 * Vertical lines between `px` and `h2o` columns.
+	 */
+	
+	:root *> .w_Dlb:before, :root *> .w_Dla:after { display: block; }
+	
+}
+
+/* ==========================================================================
+   extras/_wiffle-onoff.css
+   ========================================================================== */
+
+/*-----------------( [ A ]LPHA )-----------------*/
+
+/**
+ * Turn display/visibility ON.
+ * Show/hide from both screen readers and browsers.
+ */
+
+.w_Bon, .w_Con, .w_Don { display: none !important; visibility: hidden; }
+.w_Aon { display: block !important; visibility: visible; }
+
+/**
+ * Turn display/visibility OFF.
+ * IBID.
+ */
+
+.w_Boff, .w_Coff, .w_Doff { display: block !important; visibility: visible; }
+.w_Aoff { display: none !important; visibility: hidden; }
+
+@media only screen and (min-width: 665px) {
+	
+	/*-----------------( [ B ]RAVO )-----------------*/
+	
+	/**
+	 * Turn display/visibility ON.
+	 */
+	
+	.w_Aon { display: none !important; visibility: hidden; }
+	.w_Bon { display: block !important; visibility: visible; }
+	
+	/**
+	 * Turn display/visibility OFF.
+	 */
+	
+	.w_Aoff { display: block !important; visibility: visible; }
+	.w_Boff { display: none !important; visibility: hidden; }
+	
+}
+
+@media only screen and (min-width: 1005px) {
+	
+	/*-----------------( [ C ]HARLIE )-----------------*/
+	
+	/**
+	 * Turn display/visibility ON.
+	 */
+	
+	.w_Bon { display: none !important; visibility: hidden; }
+	.w_Con { display: block !important; visibility: visible; }
+	
+	/**
+	 * Turn display/visibility OFF.
+	 */
+	
+	.w_Boff { display: block !important; visibility: visible; }
+	.w_Coff { display: none !important; visibility: hidden; }
+
+@media only screen and (min-width: 1345px) {
+	
+	/*-----------------( [ D ]ELTA )-----------------*/
+	
+	/**
+	 * Turn display/visibility ON.
+	 */
+	
+	.w_Con { display: none !important; visibility: hidden; }
+	.w_Don { display: block !important; visibility: visible; }
+	
+	/**
+	 * Turn display/visibility OFF.
+	 */
+	
+	.w_Coff { display: block !important; visibility: visible; }
+	.w_Doff { display: none !important; visibility: hidden; }
+	
+}
