@@ -72,7 +72,7 @@
 	 * Boxes.
 	 */
 	
-	.w_Ansew, .w_Ans, .w_Aew, .w_An, .w_As, .w_Ae, .w_Aw { border: 0; padding: 1px 0; margin: -1px 0; }
+	.w_Ansew, .w_Ans, .w_Aew, .w_An, .w_As, .w_Ae, .w_Aw { border-width: 0; padding: 1px 0; margin: -1px 0; }
 	
 	.w_Bnsew { border-width: 1px; margin: 10px; padding: 9px; }
 	.w_Bns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
@@ -117,7 +117,7 @@
 	 * Boxes.
 	 */
 	
-	.w_Bnsew, .w_Bns, .w_Bew, .w_Bn, .w_Bs, .w_Be, .w_Bw { border: 0; padding: 1px 0; margin: -1px 0; }
+	.w_Bnsew, .w_Bns, .w_Bew, .w_Bn, .w_Bs, .w_Be, .w_Bw { border-width: 0; padding: 1px 0; margin: -1px 0; }
 	
 	.w_Cnsew { border-width: 1px; margin: 10px; padding: 9px; }
 	.w_Cns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
@@ -162,7 +162,7 @@
 	 * Boxes.
 	 */
 	
-	.w_Cnsew, .w_Cns, .w_Cew, .w_Cn, .w_Cs, .w_Ce, .w_Cw { border: 0; padding: 1px 0; margin: -1px 0; }
+	.w_Cnsew, .w_Cns, .w_Cew, .w_Cn, .w_Cs, .w_Ce, .w_Cw { border-width: 0; padding: 1px 0; margin: -1px 0; }
 	
 	.w_Dnsew { border-width: 1px; margin: 10px; padding: 9px; }
 	.w_Dns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
