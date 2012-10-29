@@ -7,6 +7,27 @@
 
 ---
 
+## v4.0.0
+#### October 29, 2012
+
+* Bumped version number to `v4.0.0`.
+* Reorganized `demos` folder (**BIG UPS** to [@psullivan6](https://github.com/psullivan6/)):
+	* Moved each demo's html and css into its own folder.
+	* The root-level `index.html` is the main Wiffle demo page.
+* Removed `.debug` classes from main Wiffle styles.
+	* Moved `.debug` classes to `demos` folder.
+	* Not suprising, but `wiffle.css` went from `26kb` to `14kb`!
+* Moved `/source/grid-300+40.psd.zip` into `/demos/assets/images/`.
+* `boxes.css`:
+	* Fixed a syntax error.
+	* Added comments.
+	* Added new classes for `10px` & `20px` boxes.
+* Some changes to all of the demo html files:
+	* Updated links to point to new asset locations.
+	* Fixed some html issues.
+
+---
+
 ## v3.3.0
 #### October 28, 2012
 

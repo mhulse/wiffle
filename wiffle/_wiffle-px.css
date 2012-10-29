@@ -12,7 +12,6 @@
 
 .w_row:before, .w_row:after { content: ""; display: table; } .w_row:after { clear: both; } .w_row { *zoom: 1; } /* rgne.ws/KZHkqq */
 	.w_col { margin: -1px 0; padding: 1px 0; position: relative; } /* rgne.ws/JAoGck */
-		.debug .w_col { background: rgba(0, 0, 255, .25); } /* blue, #00f */
 
 @media only screen and (min-width: 665px) {
 	
@@ -38,9 +37,6 @@
 	.w_B130 { width: 130px; }
 	.w_B300 { width: 300px; }
 	.w_B470 { width: 470px; }
-		.debug .w_B130 { background: rgba(128, 0, 128, .25); } /* purple, #800080 */
-		.debug .w_B300 { background: rgba(0, 0, 128, .25); }   /* navy, #000080 */
-		.debug .w_B470 { background: rgba(0, 128, 128, .25); } /* teal, #008080 */
 	.w_B130, .w_B300, .w_B470 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; } /* Remove padding in place of margin (see link above). */
 	
 	/*----------------------------------*/
@@ -83,11 +79,6 @@
 	.w_C470 { width: 470px; }
 	.w_C640 { width: 640px; }
 	.w_C810 { width: 810px; }
-		.debug .w_C130 { background: rgba(192, 192, 192, .25); } /* silver, #c0c0c0 */
-		.debug .w_C300 { background: rgba(0, 128, 0, .25); }     /* green, #008000 */
-		.debug .w_C470 { background: rgba(0, 255, 0, .25); }     /* lime, #0f0 */
-		.debug .w_C640 { background: rgba(255, 255, 255, .25); } /* white, #fff */
-		.debug .w_C810 { background: rgba(240, 230, 140, .25); } /* khaki, #f0e68c */
 	.w_C130, .w_C300, .w_C470, .w_C640, .w_C810 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
 	
 	/*----------------------------------*/
@@ -131,13 +122,6 @@
 	.w_D810 { width: 810px; }
 	.w_D980 { width: 980px; }
 	.w_D1150 { width: 1150px; }
-		.debug .w_D130 { background: rgba(128, 128, 128, .25); } /* gray, #808080 */
-		.debug .w_D300 { background: rgba(128, 128, 0, .25); }   /* olive, #808000 */
-		.debug .w_D470 { background: rgba(255, 255, 0, .25); }   /* yellow, #ff0 */
-		.debug .w_D640 { background: rgba(255, 0, 0, .25); }     /* red, #f00 */
-		.debug .w_D810 { background: rgba(255, 0, 255, .25); }   /* fuchsia, #f0f */
-		.debug .w_D980 { background: rgba(128, 0, 0, .25); }     /* maroon, #800000 */
-		.debug .w_D1150 { background: rgba(64, 224, 208, .25); } /* turquoise, #40e0d0 */
 	.w_D130, .w_D300, .w_D470, .w_D640, .w_D810, .w_D980, .w_D1150 { margin: 0 0 0 40px; padding: 0; float: left; display: inline; }
 	
 	/*----------------------------------*/

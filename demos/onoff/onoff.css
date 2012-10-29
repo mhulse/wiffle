@@ -26,6 +26,8 @@
 	
 	.Boff { display: block !important; visibility: visible; }
 	.Coff { display: none !important; visibility: hidden; }
+	
+}
 
 @media only screen and (min-width: 1345px) {
 	

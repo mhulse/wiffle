@@ -1,0 +1,94 @@
+/**
+ * Boxes.
+ * Designed for use on a "wrapping" `div` inside columns.
+ * There's a 10px "spaced" box and a 20px "spaced" box; the latter is default.
+ * Due to its lack of support for chained classes, IE 6 will apply the 20px box by default.
+ * Media query polyfill required for IE < 9; without it, these styles wont apply.
+ *
+ * @see rgne.ws/XNg7Qu
+ */
+
+.Ansew, .Ans, .Aew, .An, .As, .Ae, .Aw,
+.Bnsew, .Bns, .Bew, .Bn, .Bs, .Be, .Bw,
+.Cnsew, .Cns, .Cew, .Cn, .Cs, .Ce, .Cw,
+.Dnsew, .Dns, .Dew, .Dn, .Ds, .De, .Dw { border: 0 solid #ccc; padding: 1px 0; margin: -1px 0; } /* rgne.ws/JAoGck */
+
+@media only screen and (min-width: 0) and (max-width: 664px) {
+	
+	.box10.Ansew { border-width: 1px; margin: 10px; padding: 10px; }
+	.box10.Ans { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.box10.Aew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.box10.An { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.box10.As { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.box10.Ae { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.box10.Aw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
+	
+	.Ansew { border-width: 1px; margin: 20px; padding: 20px; }
+	.Ans { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
+	.Aew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
+	.An { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
+	.As { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
+	.Ae { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
+	.Aw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
+	
+}
+
+@media only screen and (min-width: 665px) and (max-width: 1004px) {
+	
+	.box10.Bnsew { border-width: 1px; margin: 10px; padding: 9px; }
+	.box10.Bns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.box10.Bew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.box10.Bn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.box10.Bs { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.box10.Be { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.box10.Bw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
+	
+	.Bnsew { border-width: 1px; margin: 20px; padding: 20px; }
+	.Bns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
+	.Bew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
+	.Bn { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
+	.Bs { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
+	.Be { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
+	.Bw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
+	
+}
+
+@media only screen and (min-width: 1005px) and (max-width: 1344px) {
+	
+	.box10.Cnsew { border-width: 1px; margin: 10px; padding: 9px; }
+	.box10.Cns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.box10.Cew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.box10.Cn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.box10.Cs { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.box10.Ce { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.box10.Cw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
+	
+	.Cnsew { border-width: 1px; margin: 20px; padding: 20px; }
+	.Cns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
+	.Cew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
+	.Cn { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
+	.Cs { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
+	.Ce { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
+	.Cw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
+	
+}
+
+@media only screen and (min-width: 1345px) {
+	
+	.box10.Dnsew { border-width: 1px; margin: 10px; padding: 9px; }
+	.box10.Dns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.box10.Dew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.box10.Dn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.box10.Ds { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.box10.De { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.box10.Dw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
+	
+	.Dnsew { border-width: 1px; margin: 20px; padding: 20px; }
+	.Dns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 20px; margin-bottom: 20px; padding-top: 19px; padding-bottom: 19px; }
+	.Dew { border-right-width: 1px; border-left-width: 1px; margin-right: 20px; margin-left: 20px; padding-right: 19px; padding-left: 19px; }
+	.Dn { border-top-width: 1px; margin-top: 20px; padding-top: 19px; }
+	.Ds { border-bottom-width: 1px; margin-bottom: 20px; padding-bottom: 19px; }
+	.De { border-right-width: 1px; margin-right: 20px; padding-right: 19px; }
+	.Dw { border-left-width: 1px; margin-left: 20px; padding-left: 19px; }
+	
+}
