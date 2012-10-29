@@ -11,13 +11,22 @@
 #### October 28, 2012
 
 * Bumped version number to `v3.3.0`.
-* Got rid of boxes styles.
-* Tweaked `README.md`.
-* Added a lines demo page.
-* Modified on/off demo page.
-* Removed utils and extra files.
-* Moved utils into `px` breakpoints.
+* Got rid of box/module styles.
+* Modified `README.md`.
+* Removed `_wiffle-utils.css` and `_wiffle-extras.css` files.
+* Removed `extras/_wiffle-lines.css` and `extras/_wiffle-onoff.css`.
+* Moved contents of `wiffle-utils.css` into `_wiffle-px.css`.
+* Removed extras/utils from from `wiffle.css`.
+	* I've made the decision to keep Wiffle focused; the addition of on/off, lines and "box/modules" seemed to be getting a little overboard. Reasoning: I think, if anyone uses Wiffle, they can come up with their own system of these "extras".
+	* I've kept the examples of "lines" and "on/off" in the demo folder to show how one might go about adding their own "extras" to Wiffle.
 * Update main demo page and CSS.
+* Added a "lines" demo page.
+* Modified "on/off" demo page.
+* Moved "line before" and "on/off" styles into demo folder.
+	* Removed `w_` namespace prefix.
+* Moved demo CSS into a `css` folder.
+	* Updated demo html files to point to new location of this file.
+
 
 ---
 

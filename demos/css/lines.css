@@ -1,0 +1,37 @@
+/**
+ * Vertical lines between `px` and `h2o` columns.
+ * Compatible with IE >= 8.
+ *
+ * Unfortunately, IE 8 is having issues showing/hidding pseudo elements.
+ * Using hack to target everything but IE 6-8.
+ *
+ * @see rgne.ws/M85ynR
+ */
+
+.Alb:before, .Blb:before, .Clb:before, .Dlb:before, .Ala:after, .Bla:after, .Cla:after, .Dla:after { border-right: 1px solid #ccc; content: ""; display: none; position: absolute; top: 0; bottom: 0; }
+.Alb:before, .Blb:before, .Clb:before, .Dlb:before { left: -21px; }
+.Ala:after, .Bla:after, .Cla:after, .Dla:after { right: -20px; }
+
+@media only screen and (min-width: 0) and (max-width: 664px) {
+	
+	:root *> .Alb:before, :root *> .Ala:after { display: block; } /* rgne.ws/TxmM1l */
+	
+}
+
+@media only screen and (min-width: 665px) and (max-width: 1004px) {
+	
+	:root *> .Blb:before, :root *> .Bla:after { display: block; }
+	
+}
+
+@media only screen and (min-width: 1005px) and (max-width: 1344px) {
+	
+	:root *> .Clb:before, :root *> .Cla:after { display: block; }
+	
+}
+
+@media only screen and (min-width: 1345px) {
+	
+	:root *> .Dlb:before, :root *> .Dla:after { display: block; }
+	
+}

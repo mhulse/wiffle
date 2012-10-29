@@ -27,7 +27,7 @@ body {
 	line-height: 1.4;
 	color: #333;
 }
-body.debug { background: url(images/grid-300+40.png) repeat-y center top; }
+body.debug { background: url(../images/grid-300+40.png) repeat-y center top; }
 
 a {
 	color: #000;
