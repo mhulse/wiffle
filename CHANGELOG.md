@@ -26,6 +26,8 @@
 	* Removed `w_` namespace prefix.
 * Moved demo CSS into a `css` folder.
 	* Updated demo html files to point to new location of this file.
+* Updated demo plugins to latest versions.
+* Added ios orientation fix to `onoff.html` and `lines.html` demos.
 
 
 ---
