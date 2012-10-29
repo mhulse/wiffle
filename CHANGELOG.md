@@ -28,7 +28,9 @@
 	* Updated demo html files to point to new location of this file.
 * Updated demo plugins to latest versions.
 * Added ios orientation fix to `onoff.html` and `lines.html` demos.
-
+* Moved/created `boxes.html` and `boxes.css` in demo folder.
+	* Just another example of how one could utilize the breakpoints to create boxes with borders/margins/padding.
+* Fixed a few logic errors in demo html files.
 
 ---
 

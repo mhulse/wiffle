@@ -1,0 +1,58 @@
+/**
+ * Boxes.
+ * Designed for use on a "wrapping" `div` inside columns.
+ * Note: Media query polyfill required for IE < 9.
+ */
+
+.Ansew, .Ans, .Aew, .An, .As, .Ae, .Aw,
+.Bnsew, .Bns, .Bew, .Bn, .Bs, .Be, .Bw,
+.Cnsew, .Cns, .Cew, .Cn, .Cs, .Ce, .Cw,
+.Dnsew, .Dns, .Dew, .Dn, .Ds, .De, .Dw { border: 0 solid #ccc; padding: 1px 0; margin: -1px 0; } /* rgne.ws/JAoGck */
+
+@media only screen and (min-width: 0) and (max-width: 664px) {
+	
+	.Ansew { border-width: 1px; margin: 10px; padding: 10px; }
+	.Ans { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.Aew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.An { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.As { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.Ae { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.Aw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
+	
+}
+
+@media only screen and (min-width: 665px) and (max-width: 1004px) {
+	
+	.Bnsew { border-width: 1px; margin: 10px; padding: 9px; }
+	.Bns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.Bew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.Bn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.Bs { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.Be { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.Bw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
+	
+}
+
+@media only screen and (min-width: 1005px) and (max-width: 1344px) {
+	
+	.Cnsew { border-width: 1px; margin: 10px; padding: 9px; }
+	.Cns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.Cew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.Cn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.Cs { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.Ce { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.Cw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
+	
+}
+
+@media only screen and (min-width: 1345px) {
+	
+	.Dnsew { border-width: 1px; margin: 10px; padding: 9px; }
+	.Dns { border-top-width: 1px; border-bottom-width: 1px; margin-top: 10px; margin-bottom: 10px; padding-top: 9px; padding-bottom: 9px; }
+	.Dew { border-right-width: 1px; border-left-width: 1px; margin-right: 10px; margin-left: 10px; padding-right: 9px; padding-left: 9px; }
+	.Dn { border-top-width: 1px; margin-top: 10px; padding-top: 9px; }
+	.Ds { border-bottom-width: 1px; margin-bottom: 10px; padding-bottom: 9px; }
+	.De { border-right-width: 1px; margin-right: 10px; padding-right: 9px; }
+	.Dw { border-left-width: 1px; margin-left: 10px; padding-left: 9px; }
+	
+}
