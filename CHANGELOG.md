@@ -11,7 +11,7 @@
 #### October 29, 2012
 
 * Bumped version number to `v4.0.0`.
-* Reorganized `demos` folder (__BIG UPS__ to [@psullivan6](https://github.com/psullivan6/)):
+* Reorganized `demos` folder (BIG UPS to [@psullivan6](https://github.com/psullivan6/)):
 	* Moved each demo's html and css into its own folder.
 	* The root-level `index.html` is the main Wiffle demo page.
 * Removed `.debug` classes from main Wiffle styles.
