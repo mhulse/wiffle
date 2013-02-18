@@ -1,9 +1,34 @@
 # Changelog
 
-## vX.X.X
-#### Mmmmm [D]D, YYYY
+## v4.1.0
+#### February 17, 2013
 
-* ...
+In this release, none of the core code has changed (just doing some house cleaning).
+
+* Demo's `demo.css`:
+	1. Updated `normalize.css`.
+	1. Moved `.clear` class. 
+	1. Updated comments.
+* Demo's assets:
+	1. Updated `html5shiv.js`.
+	1. Removed `ios-orientationchange-fix.js`.
+	1. Updated `respond.min.js`.
+	1. Un-zipped PSD.
+* Demos's `index.html`:
+	1. Updated CSS link to point to minified version: `wiffle.min.css`.
+	1. Removed link to `ios-orientationchange-fix.js`.
+	1. Added IE-specific classes in preparation for removal of IE-specific CSS hacks.
+* [Grunt build tool](https://github.com/gruntjs/grunt) setup:
+	1. Created `/build` folder.
+		* Added boilerplate build setup within.
+	1. Moved source files from `/wiffle` to `/build/src`.
+	1. Build tool now generates `/wiffle/wiffle.css` and  `/wiffle/wiffle.min.css`.
+* Repo-specific:
+	1. Updated `CHANGELOG.md` (this file).
+	1. Bumped version number to `v4.1.0`.
+	1. Updated copyright year in `README.md`.
+	1. Added local `.gitignore`.
+	1. Added local `.gitattributes`.
 
 ---
 
@@ -205,5 +230,12 @@
 	* Safari `4.3` (simulated)
 * iPad:
 	* Safari `4.3` _(simulated)_, Safari `5.1.1`
+
+---
+
+## vX.X.X
+#### Mmmmm [D]D, YYYY
+
+* ...
 
 ---
