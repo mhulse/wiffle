@@ -1,6 +1,6 @@
 # Wiffle = ((640 - 3x) / 4)
 
-![Wiffle, it's responsive!](http://registerguard.github.com/wiffle/wiffle.gif)
+![Wiffle, it's responsive!](http://mhulse.github.io/wiffle/wiffle.gif)
 
 ### A "responsive" grid system based on [Frameless](http://framelessgrid.com/), [OOCSS Grids](https://github.com/stubbornella/oocss/wiki/Grids) and [Standard Advertising Units](http://www.iab.net/guidelines/508676/508767/displayguidelines).
 
@@ -17,21 +17,21 @@
 
 #### INFO
 
-**Jam on it! …(We get to say [wikki-wikki-wikki](https://github.com/registerguard/wiffle/wiki) again) [Wikki-wikki-wikki-wikki](https://github.com/registerguard/wiffle/wiki) (Shut up) [Wikki-wikki-wikki-wikki](https://github.com/registerguard/wiffle/wiki) [Wikki-wikki-wikki-wikki](https://github.com/registerguard/wiffle/wiki)… I said [jam-j-j-jam](http://www.youtube.com/watch?v=zEmg5GaAHbk) on it!**
+**Jam on it! …(We get to say [wikki-wikki-wikki](https://github.com/mhulse/wiffle/wiki) again) [Wikki-wikki-wikki-wikki](https://github.com/mhulse/wiffle/wiki) (Shut up) [Wikki-wikki-wikki-wikki](https://github.com/mhulse/wiffle/wiki) [Wikki-wikki-wikki-wikki](https://github.com/mhulse/wiffle/wiki)… I said [jam-j-j-jam](http://www.youtube.com/watch?v=zEmg5GaAHbk) on it!**
 
 ---
 
 #### DEMO
 
-[![qr code](http://chart.apis.google.com/chart?cht=qr&chl=http://registerguard.github.com/wiffle&chs=240x240)](http://registerguard.github.com/wiffle/demos/)
+[![qr code](http://chart.apis.google.com/chart?cht=qr&chl=http://mhulse.github.io/wiffle&chs=240x240)](http://mhulse.github.io/wiffle/demos/)
 
-(Scan QR code with phone and/or click to [view the latest demo](http://registerguard.github.com/wiffle/demos/).)
+(Scan QR code with phone and/or click to [view the latest demo](http://mhulse.github.io/wiffle/demos/).)
 
 ---
 
 #### LEGAL
 
-Copyright &copy; 2013 [Micky Hulse](http://hulse.me)/[The Register-Guard](http://www.registerguard.com)
+Copyright &copy; 2013-14 [Micky Hulse](http://mky.io)
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
 
